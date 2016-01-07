@@ -1,0 +1,243 @@
+\documentclass[11pt, oneside]{article}
+
+\title{Glossary of Software Evolution Terms}
+\author{Tom Mens}
+
+\begin{document}
+\maketitle
+
+
+
+
+This document is an excerpt of an appendix of the book "Evolving Software Systems" (Springer, 2014) edited by Tom Mens, Alexander Serebrenik and Anthony Cleve. It contains a glossary of terms and definitions that have been introduced and used in the various chapters contributing to this book.
+
+\begin{description}
+%%%% A %%%%
+
+\item[as-is utility]
+According to Boehm \cite{opac-b1104886}, the extent to which the as-is software can be used (i.e. ease of use, reliability and efficiency).
+
+%%%% B %%%%
+
+%%%% C %%%%
+
+\item[conformance]
+A relationship between models and metamodels. A model conforms to its metamodel if it obeys the syntactic rules defined by the metamodel.
+
+\item[content model]
+A model describing the business and data objects of a web system, including their properties and relationships.
+
+\item[coupled evolution]
+A coupled evolution is a triple $(\mu, \mu', m)$ of the original metamodel $\mu$, the evolved metamodel $\mu'$, and migration $m$, a partial function from the extension of $\mu$ to the extension of $\mu'$.
+
+%%%% D %%%%
+
+\item[dynamic software systems]
+Software systems whose operation is especially affected by uncertainty, that is their requirements and execution environments may change rapidly and unpredictably~\cite{Northrop:ULSReport:SEI:2006}.
+
+%%%% E %%%%
+
+\item[ecology]
+The scientific study of the interactions that determine the distribution and abundance of living organisms.
+
+\item[ecosystem]
+The physical and biological components of an environment considered in relation to each other as a unit.
+
+\item[efficiency]
+According to Boehm \cite{opac-b1104886}, the optimum use of system resources during correct execution.
+
+\item[evolution]
+A process of \emph{progressive}, for example beneficial, change in the attributes of the evolving entity or that of one or more of its constituent elements. What is accepted as progressive must be determined in each context.
+It is also appropriate to apply the term evolution when long-term change trends are beneficial even though isolated or short sequences of changes may appear degenerative. For example, an entity or collection of entities may be said to be evolving if their value or fitness is increasing over time. Individually or collectively they are becoming more meaningful, more complete or more adapted to a changing environment. (Chapter 1 of \cite{MadhavjiEtAl2006}.)
+
+\noindent \emph{Alternative definition:} The application of software maintenance actions with the goal of generating a new operational version of the system that guarantees its functionalities and qualities, as demanded by changes in requirements and environments~\cite{Chapin:2001:typesofSE,MensEtal2005IWPSE}.
+
+\item[extension]
+The extension of a software language is the set of utterances that are syntactically correct with respect to the software language.
+
+
+%%%% F %%%%
+
+\item[feature]
+Distinguishable characteristics of a concept (e.g., component, system, etc.) that are relevant to some stakeholder of the concept\cite{czarnecki:gp}.
+
+\item[free software]
+A popular mode of software distribution as a common good in which users can access, modify and re-distribute the code, under the terms of the license and some parts (e.g., notices) that should not been modified.
+
+\item[flexibility]
+Acording to McCall \cite{mccall1977factors}, the ability to make changes required as dictated by the business.
+According to Boehm \cite{opac-b1104886}, the ease of changing the software to meet revised requirements.
+
+\item[frequency]
+The number of occurrences of a change event per unit of time that will require the evolution of the system.
+
+%%%% I %%%%
+
+\item[intensional definition]
+An intensional definition of a software language defines the rules to check whether an utterance is syntactically correct with respect to the software language.
+
+\item[interoperability]
+Acording to McCall \cite{mccall1977factors}, the extent or ease to which software components work together.
+
+%%%% M %%%%
+
+\item[maintainability]
+According to McCall \cite{mccall1977factors}, the ability to find and fix a defect.
+According to Boehm \cite{opac-b1104886}, the ease of identifying what needs to be changed as well as the ease of modification and retesting.
+
+\item[maintenance]
+According to the ISO Standard 12207 \cite{ISO1995-12207}, the software product undergoes modification to code and associated documentation due to a problem or the need for improvement. The objective of software maintenance is to modify the existing software while preserving its integrity.\\
+According to the IEEE Standard 1219 \cite{IEEE1999-1219}, \emph{software maintenance} is the modification of a software product after delivery to correct faults, to improve performance or other attributes, or to adapt the product to a modified environment.
+In the ISO/IEC Standard 14764 \cite{ISO/IEC1999-14764}, maintenance is further subdivided into four categories:
+\begin{description}
+\item[\emph{Perfective maintenance}]\index{maintenance!perfective} is any modification of a software product after delivery to improve performance or maintainability.
+\item[\emph{Corrective maintenance}]\index{maintenance!corrective} is the reactive modification of a software product performed after delivery to correct discovered faults.
+\item[\emph{Adaptive maintenance}]\index{maintenance!adaptive} is the modification of a software product performed after delivery to keep a computer program usable in a changed or changing environment.
+\item[\emph{Preventive maintenance}]\index{maintenance!preventive} refers to software modifications performed for the purpose of preventing problems before they occur. This type of maintenance, that does not alter the system functionality, is also referred to as \emph{anti-regressive work.}
+\end{description}
+
+\item[metamodel]
+An intensional definition of a modeling language. It specifies the abstract syntax of the language.
+
+\item[model]
+An abstract specification of a part of a software system. A model is an utterance of a modeling language.
+
+\item[model migration]
+A transformation that transforms a model that conforms to the old version of the metamodel to the new version of the metamodel.
+
+
+\item[modeling language]
+A software language to specify models. Its abstract syntax is defined by a metamodel, and its semantics usually defines how to map models to programs.
+
+%%%% N %%%%
+
+\item[navigation model]
+A model describing the user interactions of a web system (e.g., navigation through links and form submission).
+
+%%%% O %%%%
+
+\item[off-line software evolution]
+The process of modifying a software system through actions that require intensive user intervention and imply the interruption of the system operation.
+
+\item[open source software]
+Software of which the source code is available for users and third parties to be inspected and used. It is made available to the general public with either relaxed or non-existent intellectual property restrictions.
+ It is generally used as a synonym of free software even though the two terms have different connotations. \emph{Open} emphasises the accessibility to the source code, while \emph{free} emphasises the freedom to modify and redistribute under the terms of the original license.
+
+%%%% P %%%%
+
+\item[portability]
+According to McCall \cite{mccall1977factors}, the ability to transfer the software from one environment to another.
+According to Boehm \cite{opac-b1104886}, the ease of changing software to accommodate a new environment, or the extent to which the software will work under different computer configurations (i.e. operating systems, databases etc.).
+
+\item[presentation model]
+A model describing the layout and the look and feel of a web systemÕs interface, as well as the widgets that enable user interactions.
+
+\item[programming language]
+A software language to specify executable programs.
+
+%%%% Q %%%%
+
+%%%% R %%%%
+
+\item[reliability]
+According to McCall \cite{mccall1977factors}, the extent to which the system fails.
+According to Boehm \cite{opac-b1104886}, the extent to which the software performs as required, i.e., the absence of defects.
+
+
+\item[re-engineering]
+According to \cite{ChikofskyCross1990}, \emph{re-engineering} is the examination and alteration of a subject system to reconstitute it in a new form and the subsequent implementation of the new form. Re-engineering generally includes some form of \emph{reverse engineering} (to achieve a more abstract description) followed by some form of \emph{forward engineering} or \emph{restructuring}. This may include modifications with respect to new requirements not met by the original system.
+
+\item[refactoring]
+According to \cite{Fowler1999}, \emph{refactoring} is [the process of making] a change to the internal structure of software to make it easier to understand and cheaper to modify without changing its observable behaviour. If applied to programs, we talk of program refactoring. If applied to models, we talk of model refactoring.
+
+\item[reusability]
+Acording to McCall \cite{mccall1977factors}, the ease of using existing software components in a different context.
+
+\item[reverse engineering]
+According to \cite{ChikofskyCross1990}, \emph{reverse engineering} is the process of analyzing a subject system to identify the system's components and their interrelationships and create representations of the system in another form or at a higher level of abstraction. Reverse engineering generally involves extracting design artefacts and building or synthesizing abstractions that are less implementation-dependent.
+
+\item[rich internet applications (RIA)]
+Web applications that are characterized by a user experience that is highly interactive and responsive so that they can rival the experience that desktop software applications can offer.
+
+\item[runtime software evolution]
+The process of modifying a software system through tasks that require minimum human intervention and are performed while the system executes.
+
+%%%% S %%%%
+
+\item[search-based software engineering]
+The application of meta-heuristic search techniques like genetic algorithms to software engineering problems.
+
+\item[self-adaptive software systems] are software applications designed to adjust themselves, at runtime, with the goal of satisfying requirements that either change while the system executes or depend on changing environmental conditions.
+
+\item[software ecosystem]
+We provide two alternative definitions:
+\begin{enumerate}
+\item A collection of software projects which are developed and evolve together in the same environment.~\cite{Lungu2009}
+\item A set of actors functioning as a typically is interconnected with institutions, such as standardisation organisations,
+unit and interacting with a shared market for software and services, together with the relationships among them. \cite{Jansen2009, Jansen2009-ICSE}
+\end{enumerate}
+
+\item[software engineering]
+ We provide two alternative definitions:
+\begin{enumerate}
+\item The establishment and use of sound engineering principles in order to obtain economically software that is reliable and works efficiently on real machines. \cite{Naur&al1969}
+\item The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software. \cite{IEEE1999-610-12}
+\end{enumerate}
+
+\item[software evolution] See \textbf{evolution}.
+
+\item[software language]
+A general term for artificial languages that are used to develop software. A software language consists of an abstract and concrete syntax as well as a semantics.
+
+\item[software product line]
+A software product line aims to support the development of a family of similar software products from a common set of shared assets.
+
+\item[software repository]
+A kind of database, file system or other kind of repository in which historical information of a software system is stored. The repository may be used to store source code, executable code, bug reports, change requests, documentation or any other type of  software-related artefact for which it is useful to store historical information.
+
+\item[static website]
+A website whose content is primarily based on HTML and that offers no dynamic features such as content generation.
+
+%%%% T %%%%
+
+\item[testability]
+According to McCall \cite{mccall1977factors}, the ability to validate the software requirements.
+According to Boehm \cite{opac-b1104886}, the ease of validation that the software meets the requirements.
+
+
+%%%% U %%%%
+
+\item[uncertainty]
+The reliability with which it is possible to characterize the occurrence of changes in requirements and execution environments.
+
+\item[understandability]
+According to Boehm \cite{opac-b1104886}, the extent to which the software is easily comprehended with regard to purpose and structure.
+
+\item[unstructured data]
+Data which does not have clear, semantically overt, easy-for-a-computer structure. It is the opposite of structured data, the canonical example of which is a relational database, of the sort companies usually use to maintain product inventories and personnel records~\cite{manning_introduction_2008}.
+
+\item[usability]
+According to McCall \cite{mccall1977factors} and Boehm \cite{opac-b1104886}, the ease of use.
+
+%%%% V %%%%
+
+\item[version]
+A snapshot of a certain software system at a certain point in time. Whenever a change is made to the software system, a new version is created.
+
+\item[version history]
+The historical collection of all versions of a software system and their relationships.
+
+\item[version repository]
+A software repository containing different versions of the software over time.
+
+%%%% W %%%%
+
+\item[web application]
+A system that is based on web technologies and access via a web browser.
+
+\end{description}
+
+\bibliography{evolvingsoftwaresystems}
+\bibliographystyle{IEEEtran}
+\end{document}  
+
