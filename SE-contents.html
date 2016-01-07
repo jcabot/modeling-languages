@@ -1,0 +1,2346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+
+  <title>Software Engineering Terminology</title>
+  <meta content="text/html; charset=us-ascii" http-equiv=
+  "Content-Type">
+  <style type="text/css">
+  P.Term {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 4pt 28.35pt; TEXT-ALIGN: justify; TEXT-INDENT: -28.35pt; tab-stops: 28.35pt
+  }
+  LI.Term {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 4pt 28.35pt; TEXT-ALIGN: justify; TEXT-INDENT: -28.35pt; tab-stops: 28.35pt
+  }
+  DIV.Term {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 4pt 28.35pt; TEXT-ALIGN: justify; TEXT-INDENT: -28.35pt; tab-stops: 28.35pt
+  }
+  P.Reference {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 6pt 14.2pt; TEXT-ALIGN: justify; TEXT-INDENT: -14.2pt
+  }
+  LI.Reference {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 6pt 14.2pt; TEXT-ALIGN: justify; TEXT-INDENT: -14.2pt
+  }
+  DIV.Reference {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 6pt 14.2pt; TEXT-ALIGN: justify; TEXT-INDENT: -14.2pt
+  }
+  P.Description {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 4pt 27pt; TEXT-ALIGN: justify
+  }
+  LI.Description {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 4pt 27pt; TEXT-ALIGN: justify
+  }
+  DIV.Description {
+        FONT-FAMILY: "Times New Roman"; FONT-SIZE: 10pt; MARGIN: 0in 0in 4pt 27pt; TEXT-ALIGN: justify
+  }
+  </style>
+</head>
+
+<body link="blue" style="tab-interval: .5in" vlink="purple">
+  <center>
+    <h2><a name="A">A</a></h2>
+  </center>
+
+  <p class="Term"><b>abstraction</b></p>
+
+  <p class="Description">A view of an object that focuses on the
+  information relevant to a particular purpose and ignores the
+  remainder of the information
+  <a href="#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+  
+  <p class="Description">A description of something that omits some
+  details that are not relevant to the purpose of the abstraction.
+  It is the converse of <a href="#Refinement">refinement</a>
+  <a href="#DSouzaWills1999">[D'Souza&amp;Wills&nbsp;1999]</a></p>
+
+ <p class="Description">The act or process of leaving out of consideration one or more properties of a complex object so as to attend to others.</p/
+ 
+  <p class="Description">Abstraction in programming is the process
+  of identifying common patterns that have systematic variations;
+  an abstraction represents the common pattern and provides a means
+  for specifying which variation to use. <a href=
+  "#Gabriel1996">[Gabriel&nbsp;1996]</a></p>
+
+  <p class="Term"><b>abstract syntax tree</b></p>
+
+  <p class="Description">Compilers often construct an abstract syntax tree (AST) for the semantic analysis. Its nodes are programming language constructs and its edges express the hierarchical relation between these constructs. From <a href="#Koschke1998">[Koschke 1998]</a>: ``The structure of an AST is a simplification of the underlying grammar of the programming language, e.g., by generalization or by suppressing chain rules. (...) This structure can be generalized so that it can be used to represent programs of different languages.''</p>
+
+  <p class="Term"><b>adaptability</b></p>
+
+  <p class="Description">Adaptability concerns the alteration of a
+  system to fit the needs of a user without necessarily changing it
+  from one machine to another. <a href=
+  "#NATO1970">[NATO&nbsp;1970]</a></p>
+
+  <p class="Term"><b>adaptive maintenance</b></p>
+
+  <p class="Description">Modification of a software product
+  performed after delivery to keep a computer program usable in a
+  changed or changing environment <a href=
+  "#IEEE1219_1998">[IEEE&nbsp;Std&nbsp;1219-1998]</a></p>
+
+  <p class="Description"><i>See also: <a href=
+  "#SoftwareMaintenance">software maintenance</a></i></p>
+  
+  <p class="Term"><b><a name="Advice">advice</a></b></p>
+  
+  <p class="Description"><a href="#Aspect">Aspect</a> definitions consist of <i>pointcuts</i>
+  and <i>advices</i>. Advices are the code that crosscuts the <i>dominant decomposition</i> of a software system.</p>
+  
+   <p class="Term"><b><a name="agile">agile software development</a></b></p>
+   
+   <p class="Description">According to Scott W. Ambler, respected authority in the agile methods community,
+   <i>agile software development</i> is an iterative and incremental (evolutionary) approach to software development
+which is performed in a highly collaborative manner with "just enough" ceremony that produces high quality software which meets the changing needs of its stakeholders. <i>Agile methods</i> refer to a collection of "ligthweight" software development methodologies that are basically aimed at minimising risk and achieving customer satisfaction through a short feedback loop.</p>
+
+  <p class="Term"><b><a name="AlternativeHypothesis">alternative
+  hypothesis</a> (H1)</b></p>
+
+  <p class="Description">The hypothesis that remains tenable when
+  the <a href="#NullHypothesis">null hypothesis</a> is rejected
+  <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Description">The alternative hypothesis posits that
+  there is no significant difference between two treatments (that
+  is, between two methods, tools, techniques, environments or other
+  conditions whose effects you are measuring) with respect to the
+  dependent variable you are measuring (such as productivity,
+  quality or cost) <a href=
+  "#FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a>.</p>
+
+  <p class="Description">See also: <i><a href=
+  "#NullHypothesis">null hypothesis</a>, <a href=
+  "#StatisticalHypothesis">statistical hypothesis</a></i>.</p>
+
+  <p class="Term"><b>analysis</b></p>
+
+  <p class="Description">The phase in the <a href=
+  "#SoftwareLifeCycle">software life-cycle</a> that emphasises on
+  <i>investigation</i> of what the problem is rather than how a
+  solution must be defined.</p>
+
+ <p class="Term"><b>anti-regressive work</b></p>
+ 
+  <p class="Description">Term introduced by <a href="#LehmanBelady1985">Lehman and Belady</a> to describe the work done to decrease the complexity of a program without altering the functionality of the system as perceived by users. Anti-regressive work includes activities such as code rewriting, refactoring, reengineering, restructuring, redocumenting, and so on.</p>
+  
+  <p class="Term"><a name="Architecture"><b>architecture</b></a></p>
+
+  <p class="Description">The organizational structure of a system
+  or component <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">The fundamental organisation of a system
+  embodied in its components, their relationships to each other,
+  and to the environment, and the principles guiding its design and
+  evolution. <a href=
+  "#IEEE1471_2000">[IEEE&nbsp;Std&nbsp;1471-2000]</a></p>
+
+  
+<p class="Description">The architecture of a software system is the structural 
+  and behavioural framework on which all other aspects of the system depend. It 
+  is the organisational structure of a software system including components, connections, 
+  constraints, and rationale.</p>
+<p class="Description">A software system's architecture is the set of principal 
+  design decisions about the system. (Richard Taylor)</p>
+
+  <p class="Term"><a name="ArchitecturalStyle"><b>architectural
+  style</b></a></p>
+
+  <p class="Description">David Garlan states that an <i>architectural style</i> "defines constraints on the form and structure of a family of architectural instances''.</p>
+
+  <p class="Term"><b>architectural design</b></p>
+
+  <p class="Description">(1) The process of defining a collection
+  of hardware and software components and their interfaces to
+  establish the framework for the development of a computer
+  system.<br>
+  (2) The result of the process in (1). <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">That part of the design phase where the
+  software architecture is defined.</p>
+
+  <p class="Term"><b>architecture description</b></p>
+
+  <p class="Description">A collection of products to document an
+  <a href="#Architecture">architecture</a>. <a href=
+  "#IEEE1471_2000">[IEEE&nbsp;Std&nbsp;1471-2000]</a></p>
+
+  <p class="Term"><b>artefact</b></p>
+
+  <p class="Description">The result of any activity in the
+     <a href="#SoftwareLifeCycle">software life-cycle</a> such as
+     requirements, architecture model, design specifications,
+     source code and test scripts</p>
+
+  <p class="Description">A piece of information that is used or
+  produced by a software development process. An artifact can be a
+  <a href="#Model">model</a>, a description, or software.</p>
+
+  <p class="Term"><b>asset</b></p>
+
+  <p class="Description">A collection of artefacts.</p>
+  
+  <p class="Term"><b><a name="Aspect">aspect</a></b></p>
+  
+ <p class="Description">A modular unit designed to implement a <i>(crosscutting) concern</i>. In other words, an aspect provides a solution for abstracting code that would otherwise be spread throughout (i.e., cross-cut) the entire program. Aspects are composed of <i>pointcuts</i> and <i>advices</i>.</p>
+
+  <p class="Term"><b>aspect exploration</b></p>
+  
+  <p class="Description">The activity of locating opportunities for introducing <a href="#Aspect">aspects</a> in non aspect-oriented software. A distinction can be made between manual exploration supported by special-purpose browsers and source-code navigation tools, and aspect mining techniques that try to automate this process of aspect discovery and propose the user one or more aspect candidates.</p>
+
+  <p class="Term"><b>aspect extraction</b></p>
+  
+  <p class="Description">The activity that turns potential <a href="#Aspect">aspects</a> into actual aspects in some aspect-oriented language, after a set of potential aspects have been identified in the aspect exploration phase.</p> 
+
+  <p class="Term"><b>aspect evolution</b></p>
+  
+  <p class="Description">The process of progressively modifying the elements of an aspect-oriented software system in order to improve or maintain its quality over time, under changing contexts and requirements.</p>
+
+  <p class="Term"><b>aspect migration</b></p>
+  
+  <p class="Description">The process of <i>migrating</i> a software system that is written in a non aspect-oriented way into an aspect-oriented equivalent of that system.</p>
+
+  <p class="Term"><b>aspect mining</b></p>
+  
+  <p class="Description">The activity of semi-automatically discovering those <i>crosscutting concerns</i> that potentially could be turned into <a href="#Aspect">aspects</a>, from the source code and/or run-time behaviour of a software system.</p> 
+
+  <p class="Term"><b>aspect-oriented software development</b> (AOSD)</p>
+  
+  <p class="Description">A new approach to  
+software development that addresses limitations inherent in other  
+approaches, including object-oriented programming. AOSD aims to  
+address crosscutting concerns by providing means for systematic  
+identification, separation, representation and composition.  
+Crosscutting concerns are encapsulated in separate modules, known as  
+<a href="#Aspect">aspects</a>, so that localization can be promoted. This results in better  
+support for modularization hence reducing development, <a href="#SoftwareMaintenance">maintenance</a>  
+and <a href="#SoftwareEvolution">evolution</a> costs.</p>
+
+  <p class="Term"><b>aspect weaving</b></p>
+  
+  <p class="Description">The process of composing the core functionality of a software system with the <a href="#Aspect">aspects</a> that are defined on top of it, thereby yielding a working system.</p>
+
+  <hr>
+
+  <center>
+    <h2><a name="B">B</a></h2>
+  </center>
+  
+  <p class="Term"><b>bad smell</b></p>
+
+  <p class="Description">According to Kent Beck <a href="#Fowler1999">[Fowler1999]</a> a bad smell is a structure in the code that suggests, and sometimes even scream for, opportunities for refactoring.</p>
+
+  <p class="Term"><b>benchmark</b></p>
+
+  <p class="Description">(1) A standard against which measurements
+  or comparisons can be made.<br>
+  (2) A problem, procedure, or test that can be used to compare
+  systems or components to each other or to a standard as in
+  (1).<br>
+  (3) A recovery file.<br>
+  <a href="#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">A benchmark is a set of tests used to
+  compare the performance of alternative tools, methods, or
+  techniques.</p>
+
+  <p class="Term"><b>black-box reuse</b></p>
+
+  <p class="Description">A kind of reuse where a component is
+  reused &igrave;as is&icirc; (i.e. without changing anything to
+  the component). <a href="#Bassett1997">Paul Bassett</a> argues
+  that this is not a kind of reuse, but simply a <b>use</b> of the
+  component!</p>
+
+  <p class="Term"><b>business model</b></p>
+
+  <p class="Description">A model of real-world objects and their
+  interactions -or rather, some users' understanding of them
+  <a href="#DsouzaWills1999">[D'Souza&amp;Wills&nbsp;1999]</a></p>
+
+  <p class="Term"><b>business rule</b></p>
+
+  <p class="Description">A step or set of steps in a process or
+  procedure or guide (algorithmic or heuristic) used by a customer
+  for doing its business, work, or function, and often embodied in
+  whole or in part in the software of a system <a href=
+  "#ChapinEtAl2001">[Chapin&nbsp;<i>et&nbsp;al.</i>&nbsp;2001]</a></p>
+  <hr>
+
+  <center>
+    <h2><a name="C">C</a></h2>
+  </center>
+
+  <p class="Term"><b><a name="CMM">Capability Maturity Model
+  (CMM)</a></b></p>
+
+  <p class="Description">Defined by the Software Engineering
+  Institute (SEI) at Carnegie Mellon University. Describes the
+  level of capability and maturity a software team could aim for
+  and could be assessed against.</p>
+
+  <p class="Term"><a name="CaseStudy"><b>case study</b></a></p>
+
+  <p class="Description">A case study is a research technique where
+  you identify key factors that may affect the outcome of an
+  activity and then document the activity: its inputs, constraints,
+  resources, and outputs. Case studies usually look at a typical
+  project, rather than trying to capture information about all
+  possible cases; these can be thought of a "research in the
+  typical". Formal <a href="#Experiment">experiments</a>,
+     <a href="#CaseStudy">case studies</a> and <a href=
+     "#Survey">surveys</a> are three key components of empirical
+     investigation in <a href="#SoftwareEngineering">software
+     engineering</a>. <a href=
+     "#FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a></p>
+
+  <p class="Description">The term case study is also often used in an engineering sense of the word. Testing a given technique or tool on a representative case against a predefined list of criteria and reporting about the lessons learned.</p>
+  
+  <p class="Term"><b><a name="CASE">CASE tool</a></b></p>
+  
+  <p class="Description">A software tool that helps software designers and developers specify, generate and maintain some or all of the software components of an application. Many popular CASE tools provide functions to allow developers to draw database schemas and to generate the corresponding code in a data description language (DDL). Other CASE tools support the analysis and design phases of software development, for example by allowing the software developer to draw different types of UML diagrams.</p>
+
+  <p class="Term"><b><a name="ChangeLog">change log</a></b></p>
+
+  <p class="Description">Record with some of the information related to one or several amendments (i.e., <i>changes</i>) made to the code or to another software artefact. The record generally includes the responsible, the date and some explanation (e.g., reasons for which a change was made).</p>
+
+  <p class="Term"><b><a name="ChangePropagation">change propagation</a></b></p>
+
+  <p class="Description">Occurs when making a change to one part of
+  a software system requires other system parts that depend on it
+  to be changed as well. These dependent system parts can on their
+  turn require changes in other system parts.<br>
+  In this way, a single change to one system part may lead to a
+  propagation of changes to be made throughout the entire software
+  system.</p>
+
+  <p class="Term"><b><a name="Cliche">clich&eacute;</a></b></p>
+
+  <p class="Description">(French) A pattern describing salient
+  features of a concept that supports recognition of that concept
+  in some specified context by application of some specified
+  comparison algorithm.</p>
+
+  <p class="Description">A collection of related features or
+  characteristics that provide a shared technical vocabulary,
+  including inter-feature relationships. (Source: Programmer's
+  Apprentice, 1990)</p>
+
+  <p class="Term"><b><a name="ClientInterface">client
+  interface</a></b> of a class</p>
+
+  <p class="Description">The set of all methods exported by the
+  class (= public methods)</p>
+
+  <p class="Description">The client interface is used to access the
+  functionality of objects. The interface is accessed by sending
+  messages to objects, and the internal structure of the objects
+  shouldn't be evident. <a href=
+  "#Lamping1993">[Lamping&nbsp;1993]</a></p>
+
+  <p class="Description">See also: <i><a href=
+  "#SpecialisationInterface">specialisation interface</a></i></p>
+
+  <p class="Term"><b><a name="Clone">clone</a></b></p>
+
+  <p class="Description"><i>Clones</i> are segments of code that are similar according to some definition of similarity. (Ira Baxter, 2002)</p>
+    
+  <p class="Description">A <i>software clone</i> is a special kind of <i>software duplicate</i>. It is a piece of software (e.g., a code fragment) that has been obtained by <i>cloning</i> (i.e., duplicating via the copy-and-paste mechanism) another piece of software and perhaps making some additional changes to it. This primitive kind of software reuse is more harmful than it is beneficial. It actually makes the activities of debugging, maintenance and evolution considerably more difficult.</p>
+
+  <p class="Term"><b><a name="CloneDetection">clone detection</a></b></p>
+  
+  <p class="Description">The activity of locating duplicates or fragments of code with a high degree of similarity and redundancy.</p>
+
+
+  <p class="Term"><b><a name="Commonality">commonalities</a></b></p>
+
+  <p class="Description">The set of <a href="#Feature">features</a>
+  or properties of a component (or system) that are the same, or
+  common, between systems</p>
+
+  <p class="Term"><b>compatibility</b></p>
+
+  <p class="Description">The ease of combining software elements
+  with others <a href="#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Description">The ability of two or more systems or
+  components to perform their required functions while sharing the
+  same hardware or software environment <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">The ability of two or more systems or
+  components to exchange information <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>complexity</b></p>
+
+  <p class="Description">The degree to which a system or component
+  has a design and implementation that is difficult to understand
+  and verify <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">That property of a language expression
+  which makes it difficult to formulate its overall behaviour, even
+  when given almost complete information about its atomic
+  components and their inter-relations. <a href=
+  "#Edmonds1997">[Edmonds&nbsp;1997]</a></p>
+
+  <p class="Term"><b>component</b></p>
+
+  <p class="Description">A component is a high-quality
+  workproduct, designed, documented, and packaged to be reusable. A
+  component is cohesive and has a stable interface <a href=
+  "#JacobsonEtAl1997">[Jacobson et al. 1997]</a>.</p>
+
+ <p class="Description">A component is a physical and replaceable part of a system 
+  that conforms to and provides the realisation of a set of interfaces (Grady 
+  Booch).</p>
+  
+  <p class="Description">A component is a self-contained piece of software with clearly-defined interfaces
+  and explicitly-declared context dependencies <a href="#StahlVolter2006">[Stahl&amp;Volter&nbsp;2006]</a>.</p>
+
+  <p class="Description"><a href="#ShawGarlan1996">Mary Shaw and David Garlan</a> define software components as "the loci of computation and state. Each component has an interface specification that defines its properties, which include the signatures and functionality of its resources together with global relations, performance properties, and so on. (...)''</p>
+  
+  <p class="Term"><b>compression</b></p>
+
+  <p class="Description">Compression is the characteristic of a
+  piece of text that the meaning of any part of it is "larger" than
+  that particular piece has by itself. This characteristic is
+  created by a rich context, with each part of the text drawing on
+  that context - each word draws part of its meaning from its
+  surroundings. <a href="#Gabriel1996">[Gabriel&nbsp;1996]</a></p>
+
+  <p class="Term"><a name="Concern"><b>concerns</b></a></p>
+
+  <p class="Description">Those interests which pertain to the
+  system development, its operation or any other aspects that are
+  critical or otherwise important to one or more stakeholders.
+  Concerns can be logical or physiscal concepts, but they may also
+  include system considerations such as performance, reliability,
+  security, distribution, and evolvability. <a href=
+  "#IEEE1471_2000">[IEEE&nbsp;Std&nbsp;1471-2000]</a></p>
+  
+  <p class="Description">(From <a href="http://www.aosd.net">aosd.net</a>) A concern is an area of interest or focus in a system.
+  Concerns are the primary criteria for decomposing software into smaller,
+  more manageable and comprehensible parts that have meaning to a software engineer
+  (see <a href="#SOC">separation of concerns</a>).
+  Examples of concerns include requirements, use cases, features, data structures,
+  quality-of-service issues, variants, intellectual property boundaries, collaborations,
+  patterns and contracts. There are many formulations used to capture concerns as
+  well-identified separate units, aspects are one such mechanism,
+  that are tuned to capturing crosscutting concerns.</p>
+
+  <p class="Term"><b>confidence interval</b></p>
+
+  <p class="Description">A range of values that, considering all
+  possible samples, has some designated probability of including
+  the true population value <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b>conformance</b></p>
+
+  <p class="Description">One behavioural description conforms to
+  another if (and only if) any object hat behavs as described by
+  one also behaves as described by the other (given a mapping
+  between the two descriptions). A conformance is a relationship
+  between the two descriptions, accompanied by a justification that
+  includes the mapping between them and the rationale for the
+  choices made. Refinement and conformance form the basis of
+  traceability and document the answer to the "why" question: Why
+  is this design done in this way? <a href=
+  "#DsouzaWills1999">[D'Souza&amp;Wills&nbsp;1999]</a></p>
+
+  <p class="Term"><b>connector</b></p>
+
+  <p class="Description"><a href="#ShawGarlan1996">Mary Shaw and David Garlan</a> state that connectors are "the loci of relations among components. They mediate interactions but are not things to be hooked up (rather, they do the hooking up). Each connector has a protocol specification that defines its properties, which include rules about the types of interfaces it is able to mediate for, assurances about properties of the interaction, rules about the order in which things happen, and commitments about the interaction (...).''</p>
+  
+  <p class="Term"><b>consistency</b></p>
+
+  <p class="Description">The degree of uniformity, standardization,
+  and freedom from contradiction among the documents or parts of a
+  system or component. <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">Consistency is the absence of <i>inconsistencies</i> in or between software artefacts.</p>
+  
+  <p class="Term"><b>copy-and-modify reuse</b> (or <i>copy-and-edit
+  reuse</i>)</p>
+
+  <p class="Description">A widespread (but also very vicious) form
+  of reuse where the reuser takes a copy of a component and starts
+  modifying it without maintaining any form of consistency with the
+  original component. In other words, there is no systematic way of
+  keeping the two versions synchronised. The danger is of course a
+  proliferation of versions, and an inability to upgrade to new
+  versions of a component. This form of reuse only brings benefits
+  on a very short-term basis.</p>
+
+  <p class="Term"><b><a name="CorrectiveMaintenance">corrective maintenance</a></b></p>
+
+  <p class="Description">Reactive modification of a software
+  product performed after delivery to correct discovered faults
+  <a href="#IEEE1219_1998">[IEEE&nbsp;Std&nbsp;1219-1998]</a></p>
+
+  <p class="Term"><b>correctness</b></p>
+
+  <p class="Description">The ability of software products to
+  perform their exact tasks, as defined by their specification
+  <a href="#Meyer1997">[Meyer&nbsp;1997]</a></p>
+  
+  <p class="Term"><b>crosscutting concerns</b></p>
+
+  <p class="Description"><a href="#Concern">Concerns</a> that do not fit within the <i>dominant decomposition</i> of a given software system, and as such have an implementation that cuts across that decomposition.<i>Aspect-oriented programming</i> is intended to be a solution to modularise such crosscutting concerns.</p>
+  
+  <hr>
+
+  <center>
+    <h2><a name="D">D</a></h2>
+  </center>
+
+  <p class="Term"><b><a name="Decay">decay</a></b></p>
+  
+  <p class="Description">Decay is the antithesis of evolution. While the evolution process involves progressive changes, the changes are degenerative in the case of decay.</p>
+
+  <p class="Term"><b><a name="DependencyAnalysis">dependency
+  analysis</a></b></p>
+
+  <p class="Description">Involves examining dependency
+  relationships among software artefacts of the same kind, usually
+  program entities (i.e. dependencies at the implementation level).
+  This definition is more or less the same as the one of
+     <i><a href="#VerticalTraceability">vertical
+     traceability</a></i>.</p>
+
+  <p class="Term"><b>dependency graph</b></p>
+
+  <p class="Description">A graph in which the nodes represent
+  software artefacts, and the edges represent all different kinds
+  of dependency relationships between these artefacts</p>
+
+  <p class="Term"><b>design</b></p>
+
+  <p class="Description">The phase in the <a href=
+  "#SoftwareLifeCycle">software life-cycle</a> that emphasises a
+  <i>logical solution</i>, i.e. how the system fulfills the
+  requirements. During <b>object-oriented design</b>, there is an
+  emphasis on defining logical software objects that will
+  ultimately be implemented in an object-oriented programming
+  language. In this view, the design serves as a high level
+  description of the source code, describing its key features and
+  giving a blueprint of how the code is organised.</p>
+
+  <p class="Description">(1) The process of defining the
+  architecture, components, interfaces, and other characteristics
+  of a system or component.<br>
+  (2) The result of the process in (1).<br>
+  <a href="#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>design recovery</b></p>
+
+  <p class="Description">A subset of <a href=
+  "#ReverseEngineering">reverse engineering</a> in which domain
+  knowledge, external information, and deduction or fuzzy reasoning
+  are added to the observations of the subject system to identify
+  meaningful higher-level abstractions beyond those obtained
+  directly by examining the system itself. <a href=
+  "#ChikofskyCross1990">[Chikofsky&amp;Cross 1990]</a></p>
+
+  <p class="Description">Design recovery recreates design
+  abstractions from a combination of code, existing design
+  documentation (if available), personal experience, and general
+  knowledge about problem and application domains. Design recovery
+  must reproduce all of the information required for a person to
+  fully understand what a program does, how it does it, why it does
+  it, and so forth. Thus, it deals with a far wider range of
+  information than found in conventional <a href=
+  "#SoftwareEngineering">software engineering</a> representations
+  or code. <a href="#Biggerstaff1989">[Biggerstaff 1989]</a></p>
+
+  <p class="Term"><b>detailed design</b></p>
+
+  <p class="Description">(1) The process of refining and expanding
+  the preliminary design of a system or component to the extent
+  that the design is sufficiently complete to be implemented.<br>
+  (2) The result of the process in (1).<br>
+  <a href="#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>disciplined reuse</b></p>
+
+  <p class="Description">A form of reuse where a degree of
+  consistency is maintained between the original component and its
+  reusers. With disciplined reuse the benefits of reuse are much
+  more sustainable.</p>
+
+  <p class="Term"><b>domain</b></p>
+
+  <p class="Description">A problem area. Typically, many
+  application programs exist to solve the problems in a single
+  domain. The following prerequisites indicate the presence of a
+  domain: the existence of comprehensive relationships among
+  objects in the domain, a community interested in solutions to the
+  problems in the domain, a recognition that software solutions are
+  appropriate to the problems in the domain, and a store of
+  knowledge or collected wisdom to address the problems in the
+  domain. Once recognized, a domain can be characterized by its
+  vocabulary, common assumptions, architectural approach, and
+  literature. [Arango Prieto-Diaz 1991]</p>
+
+  <p class="Description">An area of knowledge or activity
+  characterized by a set of concepts and terminology understood by
+  practitioners in that area <a href="#BoochEtAl1990">[Booch et al
+  1990]</a></p>
+
+  <p class="Term"><b>domain analysis</b></p>
+
+  <p class="Description">The process of identifying, capturing and
+  organizing domain knowledge about the problem domain with the
+  purpose of making it reusable when creating new systems.
+     <a href="#Arrango1994">[Arrango 1994]</a></p>
+
+  <p class="Description">The part of <a href=
+  "#DomainEngineering">domain engineering</a> that deals with
+  identifying <a href="#Commonality">commonalities</a>,
+  similarities and <a href="#Variability">variabilities</a> of an
+  application or an application domain <a href=
+  "#JacobsonEtAl1997">[Jacobson et al. 1997].</a></p>
+
+  <p class="Term"><b><a name="DomainEngineering">domain
+  engineering</a></b></p>
+
+  <p class="Description">A systematic way of defining, implementing
+  and evolving a domain in terms of <a href=
+  "#Commonality">commonalities</a> and <a href=
+  "#Variability">variabilities</a></p>
+
+  <p class="Term"><b><a name="DomainScoping">domain
+  scoping</a></b></p>
+
+  <p class="Description">Domain scoping identifies the domains of
+  interest, the stakeholders, and their goals, and defines the
+  scope of the domain. <a href="#Arrango1994">[Arrango
+  1994]</a></p>
+
+  <p class="Term"><b><a name="DomainModeling">domain modeling</a></b></p>
+
+  <p class="Description">Domain modeling is the activity for
+  representing the domain, or the domain model. Typically a domain
+  model is formed through a <a href="#Commonality">commonality</a>
+  and <a href="#Variability">variability</a> analysis to concepts
+  in the domain. <a href="#Arrango1994">[Arrango 1994]</a></p>
+  
+ <p class="Term"><b><a name="DominantDecomposition">dominant decomposition</a></b></p>
+ 
+  <p class="Description">The dominant decomposition is the principle decomposition of a program into separate modules. The <i>tyranny of the dominant decomposition</i> <a href="#TarrEtAl1999">[TarrEtAl1999]</a> refers to restrictions imposed by the dominant decomposition on a software engineer's ability to represent particular concerns in a modular way. Many kinds of concerns do not align with the chosen decomposition, so that the concerns end up scattered across many modules and tangled with one another.</p>
+
+ <p class="Term"><b><a name="Duplicate">duplicate</a></b></p>
+
+<p class="Description">A software duplicate is a code fragment that is redundant to another
+code fragment; often due to copy and paste. A negative consequence of duplication is that
+if one fragment is changed, each duplicate may need to be adjusted, too.<BR/>
+Note that a the term software <i>duplicate</i> is preferred over software <a href="#Clone">clone</a>. In English, 
+clone suggests that one fragment is derived/copied from the other one. However, this is just one special type of software redundancy. Code fragments could also be similar by accident.</p>
+
+  <hr>
+
+  <center>
+    <h2><a name="E">E</a></h2>
+  </center>
+
+  <p class="Term"><b>E-type system</b></p>
+
+  <p class="Description">One of the three types of software described by Lehman in his SPE program classification <a href="#LehmanBelady1985">[LehmanBelady1985]</a>. The distinctive properties of E-type systems are:
+the problem that they address cannot be formally and completely specified; the program has an imperfect model of the operational domain embedded in it; the program reflects an unbounded number of assumptions about the real world; the installation of the program changes the operation domain; the process of developing and evolving E-type system is driven by feedback.</p>
+
+  <p class="Term"><b>ease of use</b></p>
+
+  <p class="Description">The ease with which people of various
+  backgrounds and qualifications can learn to use software products
+  and apply them to solve problems. It also covers the ease of
+  installation, operation and monitoring.</p>
+
+  <p class="Term"><b>economy</b></p>
+
+  <p class="Description">Economy, seen as a software quality, is
+  the ability of a system to be completed on or below its assigned
+  budget <a href="#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Term"><b>efficiency</b></p>
+
+  <p class="Description">The ability of a software system to place
+  as few demands as possible on hardware resources, such as
+  processor time, space occupied in internal and external memories,
+  bandwidth used in communication devices <a href=
+  "#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Description">The degree to which a system or component
+  performs its designated functions with minimum consumption of
+  resources. In case of time resources we speak of <b>execution
+  efficiency</b>. In case of available storage resources we speak
+  of <b>storage efficiency</b> <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>effort estimation</b></p>
+
+  <p class="Description">The process to estimate in advance the
+  effort (or time) required to make a certain software change</p>
+
+  <p class="Term"><b>emergency maintenance</b></p>
+
+  <p class="Description">Unscheduled
+  <a href="#CorrectiveMaintenance">corrective maintenance</a>
+  performed to keep a system operational <a href=
+  "#IEEE1219_1998">[IEEE&nbsp;Std&nbsp;1219-1998]</a></p>
+
+  <p class="Term"><a name="Engineering"><b>engineering</b></a></p>
+
+  <p class="Description">The profession in which a knowledge of the
+  mathematical and natural sciences gained by study, experience and
+  practice is applied with judgement to develop ways to utilize,
+  economically, the materials and forces of nature for the benefit
+  of mankind [Accreditation Board for Engineering and Technology,
+  1996]</p>
+
+  <p class="Description"><i>See also <a href=
+  "#SoftwareEngineering">software engineering</a></i></p>
+
+  <p class="Term"><a name="Entropy"><b>entropy</b></a></p>
+
+  <p class="Description"><i>See <a href="#SoftwareEntropy">software
+  entropy</a></i></p>
+
+  <p class="Term"><a name="Evolution"><b>evolution</b></a></p>
+
+  <p class="Description"><i>See <a href=
+  "#SoftwareEvolution">software evolution</a></i></p>
+
+  <p class="Term"><b>evolutionary software development</b></p>
+
+  <p class="Description">This is basically the same as
+     <i><a href="#IterativeIncrementalDevelopment">iterative
+     incremental software development</a></i>, but the term
+     stresses the fact that a software system is never completely
+     finished, and that it continues to evolve after it has been
+     delivered.</p>
+
+  <p class="Term"><b>evolvability</b></p>
+
+  <p class="Description">The capability of software products to be
+  evolved to continue to serve its customer in a cost effective way
+  <a href="#CookEtAl2000">[Cook&amp;al2000]</a></p>
+
+  <p class="Term"><a name="Experiment"><b>experiment</b></a></p>
+
+  <p class="Description">In general, an experiment is defined as an
+  act or operation for the purpose of discovering something unknown
+  or testing a principle, supposition, etc. In <a href=
+  "#SoftwareEngineering">software engineering</a>: a trial that is
+  conducted in order to verify a hypothesis defined beforehand in a
+  controlled setting in which the most critical factors can be
+  controlled or monitored <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Description">A formal experiment is a rigorous,
+  controlled investigation of an activity, where key factors are
+  identified and manipulated to document their effects on the
+  outcome. By their nature, since formal experiments require a
+  great deal of control, they tend to be small, involving small
+  numbers of people or events. We can think of experiments as
+  "research in the small". <a href="#Experiment">Formal
+  experiments</a>, <a href="#CaseStudy">case studies</a> and
+  <a href="#Survey">surveys</a> are three key components of
+  empirical investigation in <a href=
+  "#SoftwareEngineering">software engineering</a>. <a href=
+  "#FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a></p>
+
+  <p class="Term"><b>experimental error</b></p>
+
+  <p class="Description">Measure that includes all uncontrolled
+  sources of variation affecting a particular score <a href=
+  "#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b><a name=
+  "Extendability">extendability</a></b></p>
+
+  <p class="Description">The ease with which a system or component
+  can be modified to increase its storage or functional capacity
+  <a href="#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">The ease of adapting software products to
+  changes of specification <a href=
+  "#Meyer1997">[Meyer1997]</a>.</p>
+
+  <p class="Term"><b>extensibility</b></p>
+
+  <p class="Description"><span lang="EN-GB"><i>See <a href=
+  "#Extendability">extendability</a></i></span></p>
+  <hr>
+
+  <center>
+    <h2><a name="F">F</a></h2>
+  </center>
+
+  <p class="Term"><b>fact</b></p>
+
+  <p class="Description">Information considered to be objectively
+  real because it was obtained through observation <a href=
+  "#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b><a name="Feature">feature</a></b></p>
+
+  <p class="Description">A feature describes prominent or
+  distinctive user-visible aspects, quality or characteristics of a
+  software system or systems <a href=
+  "#KangEtAl1990">[Kang&nbsp;et&nbsp;al.&nbsp;1990]</a></p>
+
+  <p class="Description">A feature is an observable and relatively
+  closed behaviour or characteristic of a (software) part
+     <a href="#Pulvermuller2001">[Pulvermuller&amp;al2001]</a>.</p>
+
+  <p class="Term"><b>flexibility</b></p>
+
+  <p class="Description">The ease with which a system or component
+  can be modified for use in applications or environments other
+  than those for which it was specifically designed <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>formal experiment</b></p>
+
+  <p class="Description">See <a href=
+  "#Experiment">experiment</a>.</p>
+
+  <p class="Term"><b>formal method</b></p>
+
+  <p class="Description">A formal method of software development is
+  a process for developing software that exploits the power of
+  mathematical notation and mathematical proofs <a href=
+  "#Wordsworth1999">[Wordsworth&nbsp;1999]</a></p>
+
+  <p class="Term"><b><a name="#ForwardEngineering">forward
+  engineering</a></b></p>
+
+  <p class="Description">The traditional process of moving from
+  high-level abstractions and logical, implementation-independent
+  designs to the physical implementation of a system</p>
+
+  <p class="Description">Forward engineering is the traditional
+  process of moving from high-level abstractions and logical,
+  implementation-independent designs to the physical implementation
+  of a system. Forward engineering follows a sequence of going from
+  requirements through designing its implementation. <a href=
+  "#ChikofskyCross1990">[Chikofsky&amp;Cross 1990]</a></p>
+
+  <p class="Term"><b>fragile base class problem</b></p>
+
+  <p class="Description">Refers to the problem that occurs when
+  independently developed subclasses are broken when their base
+  class evolves.</p>
+
+  <p class="Term"><b>framework</b></p>
+
+  <p class="Description">A framework is a reusable design of all or
+  part of a software system described by a set of abstract classes
+  and the way instances of those classes collaborate<a href=
+  "#RobertsJohnson1996">[Roberts&amp;Johnson 1996].</a></p>
+
+  <p class="Description">A framework is a micro-architecture that
+  provides an extensible template for applications within a
+  specific domain <a href="#OMG1997UMLSemantics">[OMG
+  1997]</a>.</p>
+  
+  <p class="Description">A framework is anything that can be adapted
+  or extended via systematic extension or configuration <a href="#StahlVolter2006">[Stahl&amp;Volter&nbsp;2006]</a>.</p>
+
+  <p class="Term"><b>functional design</b></p>
+
+  <p class="Description">(1) The process of defining the working
+  relationships among the components of a system.<br>
+  (2) The result of the process in (1). <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>functionality</b></p>
+
+  <p class="Description">The extent of possibilities provided by a
+  system <a href="#Meyer1997">[Meyer&nbsp;1997]</a></p>
+  <hr>
+
+  <center>
+    <h2><a name="G">G</a></h2>
+  </center>
+
+<p class="Term"><b>generality</b></p>
+  
+<p class="Description">The degree to which a system or component performs a broad 
+  range of functions <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+<p class="Description">Software can be considered 'general' if it can be used, without change, in a variety of situations.
+<a href="#Parnas1997">[Parnas&nbsp;1979]</a></p>
+  
+<hr>
+
+  <center>
+    <h2><a name="H">H</a></h2>
+  </center>
+
+  <p class="Term"><b>habitability</b></p>
+
+  <p class="Description">The characteristic of source code that
+  enables programmers, coders, bug-fixers and people coming to the
+  code later in its life to understand its construction and
+  intentions, and to change it comfortably and confidently.
+     <a href="#Gabriel1996">[Gabriel&nbsp;1996]</a></p>
+
+  <p class="Description">See also: <i><a href=
+  "#Maintainability">maintainability</a></i></p>
+
+  <p class="Term"><b>heuristic</b></p>
+
+  <p class="Description">(1) Involving or serving as an aid to
+  learning, discovery or problem solving by experimental and
+  especially trial-and-error methods</p>
+
+  <p class="Description">(2) Of or relating to exploratory
+  problem-solving techniques that utilize self-educating techniques
+  (as the evaluation of methods) to improve performance (e.g., a
+  heuristic computer program)</p>
+
+  <p class="Term"><b>horizontal reuse</b></p>
+
+  <p class="Description">Horizontal reuse provides generic reusable
+  components that can support a variety of products. In other
+  words, the components can be reused in different domains or
+  <a href="#ProductFamily">product families</a>.</p>
+
+  <p class="Term"><b><a name="HorizontalTraceability">horizontal
+  traceability</a></b></p>
+
+  <p class="Description">Expresses relationships between software
+  artefacts that reside in <i>different</i> phases of the
+     <a href="#SoftwareLifeCycle">software life-cycle</a>, e.g.
+     dependencies between a requirements specification and a design
+     component</p>
+
+  <p class="Description">See also: <i><a href=
+  "#VerticalTraceability">vertical traceability</a></i></p>
+
+  <p class="Term"><b><a name="Hypothesis">hypothesis</a></b></p>
+
+  <p class="Description">A tentative explanation that accounts for
+  a set of facts and can be tested by further investigation; a
+  theory <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Description">The hypothesis is the tentative theory of
+  supposition that you think explains the behaviour you want to
+  explore. Wherever possible, you should try to state your
+  hypothesis in quantifiable terms, so that it is easy to tell
+  whether the hypothesis is confirmed or refuted <a href=
+  "#FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a>.</p>
+
+  <p class="Description">See also: <a href=
+  "#ResearchHypothesis">research hypothesis</a>, <a href=
+  "#StatisticalHypothesis">statistical hypothesis</a>.</p>
+  <hr>
+
+  <center>
+    <h2><a name="I">I</a></h2>
+  </center>
+
+  <p class="Term"><b>impact analysis</b></p>
+
+  <p class="Description">Impact analysis tries to assess the impact
+  of changes on the rest of the system: when a certain component
+  changes, which system parts will be affected, and how will they
+  be affected?</p>
+
+  <p class="Description">Change impact analysis is defined as "identifying the potential consequences of a change, or estimating what needs to be modified to accomplish a change". <a href=
+  "#BohnerArnold1996">[Bohner&Arnold1996]</a></p>
+  
+  <p class="Description">See also: <i><a href=
+  "#ChangePropagation">change propagation</a></i></p>
+
+  <p class="Term"><b>implementation</b></p>
+
+  <p class="Description">The phase in the <a href=
+  "#SoftwareLifeCycle">software life-cycle</a> where the actual
+  software is implemented. The result of this phase consists of
+  source code, together with documentation to make the code more
+  readable.</p>
+
+  <p class="Term"><a name=
+  "Inconsistency"><b>inconsistency</b></a></p>
+
+  <p class="Description">A state in which two or more overlapping
+  elements of different software models make assertions about
+  aspects of the system they describe which are not jointly
+  satisfiable <a href=
+  "#SpanoudakisZisman2001">[Spanoudakis&amp;Zisman&nbsp;2001]</a>.</p>
+
+  <p class="Term"><b>inconsistency management</b></p>
+
+  <p class="Description">The process by which <a href=
+  "#inconsistency">inconsistencies</a> between software models are
+  handled so as to support the goals of the stakeholders concerned
+  <a href=
+  "#Finkelstein1996">[Finkelstein&amp;al&nbsp;1996]</a>.</p>
+
+  <p class="Term"><b>integrity</b></p>
+
+  <p class="Description">The ability of software systems to protect
+  their various components (programs, data) against unauthorized
+  access and modification <a href=
+  "#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Term"><a name=
+  "Intercession"><b>intercession</b></a></p>
+
+  <p class="Description">Intercession is the ability of a program
+  to modify its own execution state or to alter its own
+  interpretation or meaning <a href=
+  "#Maes1987">[Maes&nbsp;1987]</a>.</p>
+
+  <p class="Description"><i>See also <a href=
+  "#Reflection">reflection</a></i></p>
+
+  <p class="Term"><a name=
+  "Introspection"><b>introspection</b></a></p>
+
+  <p class="Description">Introspection is the ability of a program
+  to observe and therefore reason about its own state <a href=
+  "#Maes1987">[Maes&nbsp;1987]</a>.</p>
+
+  <p class="Description"><i>See also <a href=
+  "#Reflection">reflection</a></i></p>
+
+  <p class="Term"><b>invocation latency</b></p>
+
+  <p class="Description">The time from application invocation to
+  when execution of the program actually begins <a href=
+  "#KrintzEtAl1998">[KrintzEtAl1998]</a>.</p>
+
+  <p class="Term"><b><a name=
+  "IterativeIncrementalDevelopment">iterative incremental software
+  development</a></b></p>
+
+  <p class="Description">The process of developing a software
+  system in small steps (increments) by iterating a number of times
+  over the different software phases.</p>
+  <hr>
+
+  <center>
+    <h2><a name="J">J</a></h2>
+  </center>
+  <hr>
+
+  <center>
+    <h2><a name="K">K</a></h2>
+  </center>
+  <hr>
+
+  <center>
+    <h2><a name="L">L</a></h2>
+  </center>
+
+  <p class="Term"><b>law</b></p>
+
+  <p class="Description">A statement that predicts behavior under
+  certain defined conditions, that is based on facts, reason, and
+  observation, and that is accepted as true. There are no
+  established laws in <a href="#SoftwareEngineering">software
+  engineering</a> <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b>level of significance</b></p>
+
+  <p class="Description">Probability of rejecting the null
+  hypothesis when it is true <a href="#ISERN">[ISERN]</a></p>
+  <hr>
+
+  <center>
+    <h2><a name="M">M</a></h2>
+  </center>
+
+  <p class="Term"><b><a name=
+  "Maintainability">maintainability</a></b></p>
+
+  <p class="Description">The ease with which a software system or
+  component can be modified to correct faults, improve performance
+  or other attributes, or adapt to a changed environment
+     <a href="#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><a name="Maintenance"><b>maintenance</b></a></p>
+
+  <p class="Description"><i>See <a href=
+  "#SoftwareMaintenance">software maintenance</a></i></p>
+
+  <p class="Term"><a name="Measure"><b>measure</b></a></p>
+
+  <p class="Description">A measure provides a quantitative
+  indication of the extent, amount, dimensions, capacity or size of
+  some attribute of a product or process. <a href=
+  "#IEEE729_1993">[IEEE&nbsp;Std&nbsp;729-1993]</a></p>
+
+  <p class="Term"><b>measurement</b></p>
+
+  <p class="Description">The process by which numbers or symbols
+  are assigned to attributes of entities in the real world in such
+  a way as to describe them according to clearly defined rules
+  <a href="#FentonPfleeger1996">[Fenton&amp;Pfleeger 1996]</a></p>
+
+  <p class="Description">The experimental process in which, to
+  precisely describe the entities or events in real world, numbers
+  or other symbols are assigned to its attributes by using a given
+  scale. The result of the measurement is called a <a href=
+  "#measure">measure</a>. <a href="#AbreuEtAl2000">[Abreu&amp;al
+  2000]</a></p>
+
+  <p class="Description">The act of determining a <a href=
+  "#measure">measure</a>. <a href=
+  "#IEEE729_1993">[IEEE&nbsp;Std&nbsp;729-1993]</a></p>
+
+  <p class="Term"><a name="Metric"><b>metric</b></a></p>
+
+  <p class="Description">A quantitative measure of the degree to
+  which a system, component or process possesses a given attribute.
+  <a href="#IEEE729_1993">[IEEE&nbsp;Std&nbsp;729-1993]</a></p>
+
+  <p class="Description"><i>See also <a href=
+  "#SoftwareMetric">software metric</a></i></p>
+
+  <p class="Term"><a name="mixin"><b>mixin</b></a></p>
+
+  <p class="Description">A mixin is a subclass definition that may
+  be applied to different superclasses to create a related family
+  of modified classes <a href="#BrachaCook1990">[Bracha&amp;Cook
+  1990, page 303]</a></p>
+
+  <p class="Description">A mixin is a free-standing class extension
+  function that abstracts over its own superclass <a href=
+  "#Simons1995">[Simons 1995]</a></p>
+
+  <p class="Term"><a name="Model"><b>model</b></a></p>
+
+  <p class="Description">A model is a simplified representation of
+  a system or phenomenon with any hypotheses required to describe
+  the system or explain the phenomenon, often mathematically. It is
+  an abstraction of reality emphasizing those aspects that are of
+  interest to someone <a href="#ISERN">[ISERN]</a></p>
+
+  
+<p class="Description">A model is a coherent set of formal elements describing 
+  something (e.g., a system, bank, phone or a train) built for some purpose that 
+  is amenable to a particular form of analysis, such as: communication of ideas 
+  between people and machines, completeness checking, race condition analysis, 
+  test case generation, viability in terms of indicators such as cost and estimation, 
+  standards, transformation into an implementation. <a href="#MCF2003">[MCF2003]</a></p>
+  
+ <p class="Description">Modeling, in the broadest sense, is the cost-effective use of something in place of something else for some cognitive purpose. It allows us to use something that is simpler, safer, or cheaper than reality instead of reality for some purpose.<br/>
+A model represents reality for the given purpose; the model is an abstraction of reality in the sense that it cannot represent all aspects or reality. This allows us to deal with the world in a simplified manner, avoiding the complexity, danger and irreversibility of reality.<br/>
+<em>Jeff Rothenberg</em>
+</p>
+  
+  <p class="Term"><a name="MDA"><b>model-driven architecture</b> (MDA)</a></p>
+  
+<p class="Description">TO DO.</p>
+
+  <p class="Term"><a name="MDD"><b>model-driven development</b> (MDD)</a></p>
+
+<p class="Description">See <a href="#MDE">model-driven engineering</a></p>
+
+  <p class="Term"><a name="MDE"><b>model-driven engineering</b> (MDE)</a></p>
+  
+<p class="Description">Model-driven engineering is a software engineering approach 
+  that promotes the use of models and transformations as primary artifacts throughout 
+  the software development process. Its goal is to tackle the problem of developing, 
+  maintaining and evolving complex software systems by raising the level of abstraction 
+  from source code to models. As such, model-driven engineering promises reuse 
+  at the domain level, increasing the overall software quality.</p>
+  
+  <p class="Term"><a name="modelrefactoring"><b>model refactoring</b></a></p>
+  
+<p class="Description">Model refactoring is the equivalent of program <a href="#refactoring">refactoring</a>, 
+  but applied to models instead of programs (i.e. source code). It is a specific 
+  kind of <a href="#refactoring">model transformation</a> that intends to improve the structure of a model 
+  while preserving its behaviour.</p>
+
+  <p class="Term"><a name="modeltransformation"><b>model transformation</b></a></p>
+  
+<p class="Description">TO DO</p>
+  
+  <p class="Term"><b>modify-and-retrofit reuse</b></p>
+
+  <p class="Description">The opposite of copy-and-modify reuse.
+  Instead of copying a component and making changes to the copy,
+  the original component is modified directly. Since this has an
+  impact on all the other components that make use of it, we might
+  need to make modifications to these components as well. This
+  often leads to a propagation of changes throughout the entire
+  software system.</p>
+  <hr>
+
+  <center>
+    <h2><a name="N">N</a></h2>
+  </center>
+
+  <p class="Term"><b><a name="NullHypothesis">null hypothesis</a>
+  (H0)</b></p>
+
+  <p class="Description">A statement concerning one or more
+  parameters that is subjected to <a href=
+  "#StatisticalTest">statistical test</a> <a href=
+  "#ISERN">[ISERN]</a>.</p>
+
+  <p class="Description">The hypothesis that there is no
+  significant difference between two treatments (that is, between
+  two methods, tools, techniques, environments, or other conditions
+  whose effects you are measuring (such as productivity, quality,
+  or cost). The null hypothesis is assumed to be true unless the
+  data indicates otherwise <a href=
+  "#FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a>.</p>
+
+  <p class="Description">See also: <i><a href=
+  "#AlternativeHypothesis">alternative hypothesis</a>, <a href=
+  "#StatisticalHypothesis">statistical hypothesis</a></i>.</p>
+  <hr>
+
+  <center>
+    <h2><a name="O">O</a></h2>
+  </center>
+
+  <p class="Term"><b>object-oriented design</b></p>
+
+  <p class="Description">A software development technique in which
+  a system or component is expressed in terms of objects and
+  connections between those objects <a htef=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>object-oriented language</b></p>
+
+  <p class="Description">A programming language that allows the
+  user to express a program in terms of objects and messages
+  between those objects <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>observation</b></p>
+
+  <p class="Description">A discrete instance of the phenomena being
+  studied, e.g. a specific software module, a specific code review,
+  an individual programmer <a href="#ISERN">[ISERN]</a></p>
+  <hr>
+
+  <center>
+    <h2><a name="P">P</a></h2>
+  </center>
+
+  <p class="Term"><b>paradigm</b></p>
+
+  <p class="Description">A point of view in which some principles,
+  approaches, concepts, and even theories, have been stated
+  uniformly. A set of assumptions about reality that, when applied
+  to a particular situation, can be used as a guide for action. For
+  example, the Quality Improvement Paradigm. <a href=
+  "#ISERN">[ISERN]</a></p>
+
+  <p class="Description">A philosophical and theoretical framework
+  of a scientific school or discipline within which theories, laws,
+  and generalizations and the experiments performed in support of
+  them are formulated. [Merriam-Webster's dictionary, 2002]</p>
+
+  <p class="Term"><b>pattern</b></p>
+
+  <p class="Description">A standard (object-oriented) design for
+  addressing frequently occuring problems, described in a standard
+  way <a href="#GammaEtAl1994">[Gamma et al. 1994]</a></p>
+
+  <p class="Term"><b><a name="PerfectiveMaintenance">perfective maintenance</a></b></p>
+
+  <p class="Description">Modification of a software product after
+  delivery to improve performance or maintainability <a href=
+  "#IEEE1219_1998">[IEEE&nbsp;Std&nbsp;1219-1998]</a></p>
+
+  <p class="Description"><i>See also: <a href=
+  "#SoftwareMaintenance">software maintenance</a></i></p>
+
+  <p class="Term"><b>piecemeal growth</b></p>
+
+  <p class="Description">The process of design and implementation
+  in which software is embellished, modified, reduced, enlarged,
+  and improved through a process of repair rather than replacement.
+  <a href="#Gabriel1996">[Gabriel&nbsp;1996]</a></p>
+
+  <p class="Term"><b><a name="Platform">platform</a></b></p>
+
+  <p class="Description">A set of subsystems and technologies that
+  provide a coherent set of functionality through interfaces and
+  specified usage patterns, which any application supported by that
+  platform can use without concern for the details of how the
+  functionality provided by the platform is implemented <a href=
+  "#MDAexplained">[Kleppe et al. 2003]</a></p>
+
+  <p class="Term"><b>platform model</b></p>
+
+  <p class="Description">Provides a set of technical concepts,
+  representing the different kinds of parts that make up a
+     <a href="#Platform">platform</a> and the services provided by
+     that <a href="#Platform">platform</a>. <a href=
+     "#MDAexplained">[Kleppe et al. 2003]</a></p>
+
+  <p class="Term"><b>population</b></p>
+
+  <p class="Description">All observations of the phenomena being
+  studied, e.g. all software modules, all code reviews, all
+  programmers <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b>portability</b></p>
+
+  <p class="Description">The ease of transferring software products
+  to various hardware and software environments <a href=
+  "#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Description">Portability is the property of a system
+  which permits it to be mapped from one environment to a different
+  environment<a href="#NATO1970">[NATO&nbsp;1970]</a></p>
+
+  <p class="Term"><b>power of test</b></p>
+
+  <p class="Description">Probability of rejecting the null
+  hypothesis when the alternative hypothesis is true <a href=
+  "#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b>preliminary design</b></p>
+
+  <p class="Description">(1) The process of analyzing design
+  alternatives and defining the architecture, components,
+  interfaces, and timing and sizing estimates for a system or
+  component.<br>
+  (2) The result of the process in (1).<br>
+  <a href="#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b><a name="PreventiveMaintenance">preventive
+  maintenance</a></b></p>
+
+  <p class="Description"><a href="#SoftwareMaintenance">Maintenance</a> performed for the purpose of preventing problems before they occur.</p>
+
+  <p class="Description"><i>See also: <a href=
+  "#SoftwareMaintenance">software maintenance</a></i></p>
+
+  <p class="Term"><b><a name="ProductFamily">product
+  family</a></b></p>
+
+  <p class="Description"><i>See <a href="#ProductLine">product
+  line</a></i></p>
+
+  <p class="Term"><b><a name="ProductLine">product line</a></b></p>
+
+  <p class="Description">A collection of existing and potential
+  products that address a coherent business area and share a set of
+  similar characteristics. All these products are made by the same
+  process and for the same purpose, and differ only in style, model
+  or size.</p>
+  
+  <p class="Description"><i>See also: <a href=
+  "#ProductLine">product line</a></i></p>
+  
+  <p class="Term"><b>product-line based reuse</b></p>
+
+  <p class="Description">A kind of reuse that exploits the
+     <a href="#Commonality">commonalities</a> in a <a href=
+     "#ProductLine">product line</a> (or <a href=
+     "#ProductFamily">product family</a>) and established the
+     bounds of <a href="#Variability">variability</a> among the
+     products, making it possible to develop common assets and
+     streamlining the development process.</p>
+  <hr>
+
+  <center>
+    <h2><a name="Q">Q</a></h2>
+  </center>
+  <hr>
+
+  <center>
+    <h2><a name="R">R</a></h2>
+  </center>
+
+  <p class="Term"><b>realisation</b></p>
+
+  <p class="Description"><i>See <a href=
+  "#Refinement">refinement</a></i> <a href=
+  "#DSouzaWills1999">[D'Souza&amp;Wills&nbsp;1999]</a></p>
+
+  <p class="Term"><b><a name=
+  "Redocumentation">redocumentation</a></b></p>
+
+  <p class="Description">Redocumentation is the creation or
+  revision of a semantically equivalent representation within the
+  same relative abstraction level. The resulting forms of
+  representation are usually considered alternative views (for
+  example, dataflow, data structure, and control flow) intended for
+  human audience. Redocumentation is the simplest and oldest form
+  of <a href="#ReverseEngineering">reverse engineering</a>, and
+  many consider it to be an unintrusive, weak form of <a href=
+  "#Restructuring">restructuring</a>. The "re-" prefix implies that
+  the intent is to recover documentation about the subject system
+  that existed or should have existed. <a href=
+  "#ChikofskyCross1990">[Chikofsky&amp;Cross 1990]</a></p>
+
+  <p class="Term"><b><a name=
+  "Reengineering">reengineering</a></b></p>
+
+  <p class="Description">Reengineering, also known as both
+  renovation and reclamation, is the examination and alteration of
+  a subject system to reconstitute it in a new form and the
+  subsequent implementation of the new form. Reengineering
+  generally includes some form of <a href=
+  "#ReverseEngineering">reverse engineering</a> (to achieve a more
+  abstract description) followed by some form of <a href=
+  "#ForwardEngineering">forward engineering</a> or <a href=
+  "#Restructuring">restructuring</a>. This may include
+  modifications with respect to new requirements not met by the
+  original system. <a href=
+  "#ChikofskyCross1990">[Chikofsky&amp;Cross&nbsp;1990]</a></p>
+
+ <p class="Description">A system-changing activity that results in creating
+ a new system that either retains or does not retain the individuality of the
+ initial system. <a href=
+  "#IEEE1219_1998">[IEEE 1998]</a></p>
+
+  <p class="Term"><b><a name="Refactoring">refactoring</a></b></p>
+
+  <p class="Description"><i>[noun]</i>A change made to the internal
+  structure of software to make it easier to understand and cheaper
+  to modify without changing its observable behaviour.<br>
+  <i>[verb]</i>To restructure software by applying a series of
+  refactorings without changing its observable behaviour.
+     <a href="#Fowler1999">[Fowler 1999]</a></p>
+
+  <p class="Description">See also: <i><a href=
+  "#Restructuring">restructuring</a></i></p>
+
+  <p class="Term"><b><a name="Refinement">refinement</a></b></p>
+
+  <p class="Description">A refinement is a detailed description
+  that conforms to another (its <i>abstraction</i>). Everything
+  said about the abstraction holds, perhaps in a somewhat different
+  form, in the refinement <a href=
+  "#DSouzaWills1999">[D'Souza&amp;Wills&nbsp;1999]</a></p>
+
+  <p class="Term"><b><a name="Reflection">reflection</a></b></p>
+
+  <p class="Description">Reflection is the ability of a program to
+  manipulate as data, something representing the state of the
+  program during its own execution. There are two aspects of such
+  manipulation: <a href="#Introspection">introspection</a> and
+  <a href="#Intercession">intercession</a>. Both aspects require a
+  mechanism for encoding execution state as data; providing such an
+  encoding is called <b>reification</b> <a href=
+  "#Maes1987">[Maes&nbsp;1987]</a>.</p>
+
+  <p class="Term"><a name="Reification"><b>reification</b></a></p>
+
+  <p class="Description"><i>See <a href=
+  "#Reflection">reflection</a></i></p>
+
+  <p class="Term"><a name="Reliability"><b>reliability</b></a></p>
+
+  <p class="Description">Software reliability is the probability of
+  a failure-free operation of a computer program in a specified
+  environment for a specified time <a href="#MusaEtAl1987">[Musa et
+  al. 1987]</a>.</p>
+
+  <p class="Term"><b>repairability</b></p>
+
+  <p class="Description">Repairability is the ability to facilitate
+  the repair of defects <a href=
+  "#Meyer1997">[Meyer&nbsp;1997]</a>.</p>
+
+  <p class="Term"><b>replication</b></p>
+
+  <p class="Description">The collection of two or more observations
+  under a set of identical experimental conditions <a href=
+  "#ISERN">[ISERN]</a></p>
+
+  <p class="Description">Repetition of the basic experiment under
+  identical experiments, rather than repeating measurements on the
+  same experimental unit <a href=
+  "#FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a>.</p>
+
+  <p class="Term"><a name="Requirement"><b>requirement</b></a></p>
+
+  <p class="Description">a statement about what the proposed system
+  will do that all stakeholders agree must be made true in order
+  for the customer's problem to be adequately solved <a href=
+  "LethbridgeLaganiere2001">[LehtbridgeLaganiere2001]</a></p>
+
+  <p class="Term"><b>requirements phase</b></p>
+
+  <p class="Description">The phase in the <a href=
+  "#SoftwareLifeCycle">software life-cycle</a> where is defined
+  <i>what</i> the system should do, i.e., what are the (functional
+  and non-functional) requirements?</p>
+
+  <p class="Term"><b><a name=
+  "RequirementsTraceability">requirements traceability</a></b></p>
+
+  <p class="Description">A software requirements specification is
+  traceable if (1) the origin of each of its requirements is clear
+  and if (2) it facilitates the referencing of each requirement in
+  future development or enhancement documentation <a href=
+  "#IEEE1993">[IEEE 1993]</a></p>
+
+  <p class="Term"><b><a name="ResearchHypothesis">research
+  hypothesis</a></b></p>
+
+  <p class="Description">A tentative theory or supposition
+  provisionally adopted to account for certain facts and to guide
+  in the investigation of others <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b><a name=
+  "Restructuring">restructuring</a></b></p>
+
+  <p class="Description">Restructuring is the transformation from
+  one representation form to another at the same relative
+  abstraction level, while preserving the subject system's external
+  behaviour (functionality and semantics). A restructuring
+  transformation is often one of appearance, such as altering code
+  to improve its structure in the traditional sense of structured
+  design. While restructuring creates new versions that implement
+  or propose change to the subject system, it does not normally
+  involve modifications because of new requirements. However, it
+  may lead to better observations of the subject system that
+  suggest changes that would improve aspects of the system.
+  Restructuring is often used as a form of
+  <a href="#PreventiveMaintenance">preventive maintenance</a>
+  to improve the physical state of the subject system with respect
+  to some preferred standard. It may also involve adjusting the
+  subject system to meet new environmental constraints that do not
+  involve reassessment at higher abstraction levels. <a href=
+  "#ChikofskyCross1990">[Chikofsky&amp;Cross 1990]</a></p>
+
+  <p class="Term"><b>reusability</b></p>
+
+  <p class="Description">The ability of software elements to serve
+  for the construction of many different applications <a href=
+  "#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Description">The degree to which a software module or
+  other work product can be used in more than one computer program
+  or software system <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>reusable asset</b></p>
+
+  <p class="Description">A reusable asset is a tangible resource
+  that is acquired or developed for the solution of multiple
+  problems, such as specifications, designs, code, test cases,
+  etc.</p>
+
+  <p class="Term"><b>reuse</b></p>
+
+  <p class="Description">The process of adapting generalised
+  components to various contexts of use <a href=
+  "#Bassett1997">[Bassett 1997]</a></p>
+
+  <p class="Description">Repeated use of an artifact, typically
+  outside the original context in which the artifact was created
+  <a href=
+  "#JacobsonEtAl1997">[Jacobson&nbsp;et&nbsp;al.&nbsp;1997]</a></p>
+
+  <p class="Term"><b>reuse capability</b></p>
+
+  <p class="Description">The range of expected results in reuse
+  effectiveness, proficiency, and efficiency that an organisation
+  is able to achieve through its process.</p>
+
+  <p class="Term"><b><a name="ReverseEngineering">reverse
+  engineering</a></b></p>
+
+  <p class="Description">The process of developing a set of
+  specifications for a complex hardware system by an orderly
+  examination of specimens of that system.<a href=
+  "#Rekoff1985">[Rekoff 1985]</a></p>
+
+  <p class="Description">The process of analysing an existing
+  system to identify its components and their interrelationships
+  and create representations of the system in another form or at a
+  higher level of abstraction. Reverse engineering is usually
+  undertaken in order to redesign the system for better
+  maintainability or to produce a copy of a system without access
+  to the design from which it was originally produced. For example,
+  one might take the executable code of a computer program, run it
+  to study how it behaved with different input and then attempt to
+  write a program oneself which behaved identially (or better). An
+  integrated circuit might also be reverse engineered by an
+  unscrupulous company wishing to make unlicensed copies of a
+  popular chip. (1995-10-06)</p>
+
+  <p class="Description">The process of extracting software system
+  information (including documentation) from source code
+     <a href="#IEEE1219_1998">[IEEE&nbsp;Std&nbsp;1219-1998]</a></p>
+
+  <p class="Description">Reverse engineering is the process of
+  analyzing a subject system to: identify the system's components
+  and their interrelationships and; create representations of the
+  system in another form or at a higher level of abstraction.
+  Reverse engineering generally involves extracting design
+  artifacts and building or synthesizing abstractions that are less
+  implementation-dependent. Reverse engineering in and of itself
+  does <i>not</i> involve changing the subject system or creating a
+  new system based on the reverse-engineered subject system. It is
+  a process of <i>examination</i>, not a process of change or
+  replication. <a href="#ChikofskyCross1990">[Chikofsky&amp;Cross
+  1990]</a></p>
+
+  <p class="Term"><b>ripple effect</b></p>
+
+  <p class="Description">The phenomenon where a change in one piece
+  of a software system affects at least one other area of the same
+  software system (either directly or indirectly)</p>
+
+  <p class="Description">See also: <i><a href=
+  "#ChangePropagation">change propagation</a></i></p>
+
+  <p class="Term"><b>robustness</b></p>
+
+  <p class="Description">The ability of software systems to react
+  appropriately to abnormal conditions <a href=
+  "#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Term"><b>round-trip engineering</b></p>
+
+  <p class="Description">The seamless integration between design
+  and source code, between modeling and implementation. With
+  round-trip engineering a programmer generates code from a design,
+  changes that code in a separate development environment, and
+  recreates the adapted design diagram back from the source
+  code<a href="#DemeyerEtAl1999">[Demeyer&amp;al&nbsp;1999]</a></p>
+
+  <p class="Description">An iteration between modelling, generating
+  code, changing that code and mapping this code back to the
+  original model <a href=
+  "#DemeyerEtAl2000">[Demeyer&amp;al&nbsp;2000]</a></p>
+  <hr>
+
+  <center>
+    <h2><a name="S">S</a></h2>
+  </center>
+
+  <p class="Term"><b>sample</b></p>
+
+  <p class="Description">A subset of a population <a href=
+  "#ISERN">[ISERN]</a></p>
+  
+  <p class="Term"><a name="SOC"><b>separation of concerns (SOC)</b></a></p>
+  
+  <p class="Description"><em>Separation of concerns</em> is closely related to
+  the well-known Roman principle of "divide and conquer". It simply means that
+  a large problem is easier to manage if it can be
+  broken down into pieces; particularly so if the solutions to the sub-problems
+  can be combined to form a solution to the large problem. 
+  Separation of concerns can be supported in many ways: by process, by notation, by organization,
+  by language mechanism and others.</p>
+
+  <p class="Term"><b><a name="service">service</a></b></p>
+
+  <p class="Description">Services, as the first-class citizens of <a href="#SOA">SOAs</a>, are autonomous, platform-independent computational elements that can be described, published, discovered, orchestrated and programmed using standard protocols for the purpose of building networks of collaborating applications within an across organisational boundaries.</p>
+    
+  <p class="Term"><b><a name="SOA">service-oriented architecture</a> (SOA)</b></p>
+  
+  <p class="Description">According to Thomas Erl <a href="#Erl2005">[Erl2005]</a>, SOA is "a model in which automation logic is decomposed into smaller, distinct units of logic. Collectively, these units comprise a larger piece of business automation logic. Individually, these units can be distributed. (...) (SOA) encourages individual units of logic to exist autonomously yet not isolated from each other. Units of logic are still required to conform to a set of principles that allow them to evolve independently, while still maintaining a sufficient amount of commonality and standardization. Within SOA, these units of logic are known as <a href="#service">services</a>."<BR/>
+Some of the key principles of service-orientation are: loose coupling, service contract, autonomy, abstraction, reusability, composability, statelessness and discoverability.</p>
+
+  <p class="Term"><b>simplicity</b></p>
+
+  <p class="Description">The degree to which a system or component
+  has a design and implementation that is straightforward and easy
+  to understand <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><b>software</b></p>
+
+  <p class="Description">Software is part of a system solution that
+  can be encoded to execute on a computer as a set of instructions;
+  it includes all the associated documentation necessary to
+  understand, transform and use that solution <a href=
+  "#ISERN">[ISERN]</a></p>
+
+  <p class="Description">Software is the collection of computer
+  programs, procedures, rules, and associated documentation and
+  data <a href="#IEEE">[IEEE]</a></p>
+
+  <p class="Description">Software is the non-hardware part,
+  including associated documentation, of a system being implemented
+  or implemented in part with a computer or an embedded processor
+  <a href="#Rosen1992">[Rosen&nbsp;1992]</a></p>
+
+  <p class="Term"><b>software aging</b></p>
+
+  <p class="Description">Relates to the problem that the quality of
+  software decreases, and the <a href="#SoftwareEntropy">software
+  entropy</a> increases, as the software evolves over time.</p>
+
+  <p class="Term"><b>software change</b></p>
+
+  <p class="Description"><i>See <a href=
+  "#SoftwareEvolution">software evolution</a></i></p>
+
+  <p class="Term"><b>software configuration management
+  (SCM)</b></p>
+
+  <p class="Description">The discipline of managing and controlling
+  change in the evolution of software systems. (IEEE Standard 1042,
+  1987)</p>
+
+  <p class="Term"><a name="SoftwareEngineering"><b>software
+  engineering</b></a></p>
+
+  <p class="Description">The establishment and use of sound
+     <a href="#Engineering">engineering</a> principles in order to
+     obtain economically software that is reliable and works
+     efficiently on real machines. <a href=
+     "#NaurRandall1969">[NATO1969]</a></p>
+
+  <p class="Description">The application of a systematic,
+  disciplined, quantifiable approach to the development, operation,
+  and <a href="#SoftwareMaintenance">maintenance of software</a>;
+  that is, the application of <a href="#Engineering">engineering</a> to software.
+  <a href="#IEEE610_12">[IEEE Std 610.12-1990]</a></p>
+
+  <p class="Description">The systematic activities involved in the
+  design, implementation and testing of software to optimize its
+  production and support. [Canadian Standards Association]</p>
+
+  <p class="Term"><b><a name="SoftwareEntropy">software
+  entropy</a></b></p>
+
+  <p class="Description">The amount of disorder in a software
+  system</p>
+
+  <p class="Term"><b><a name="SoftwareEvolution">software
+  evolution</a></b></p>
+
+  <p class="Description">According to Lehman and Ramil (chapter 1 of <a href="#MadhavjiEtAl2006">[MadhavjiEtAl2006]</a>), the term <i>evolution</i> reflects "a process of <i>progressive</i>, for example beneficial, change in the attributes of the evolving entity or that of one or more of its constituent elements. What is accepted as progressive must be determined in each context.<br/>
+It is also appropriate to apply the term evolution when long-term change trends are beneficial even though isolated or short sequences of changes may appear degenerative. For example, an entity or collection of entities may be said to be evolving if their value or fitness is increasing over time. Individually or collectively they are becoming more meaningful, more complete or more adapted to a changing environment."</p>
+
+  <p class="Description">The application of
+  <a href="#SoftwareMaintenance">software maintenance</a>
+  activities and processes that generate a new operational software
+  version with a changed customer-experienced functionality or
+  properties from a prior operational version together
+  with the associated <a href="#SoftwareQualityAssurance">quality assurance</a> activities and processes,
+  and with the management of the activities and processes
+     <a href="#ChapinEtAl2001">[Chapin&nbsp;<i>et&nbsp;al.</i>&nbsp;2001]</a></p>
+
+  <p class="Term"><b><a name="SoftwareLifeCycle">software
+  life-cycle</a></b></p>
+
+  <p class="Description">The phases a software product goes through
+  between when it is conceived and when it is no longer available
+  for use.<br>
+  The software life-cycle typically includes the following:
+  requirements analysis, design, construction, testing
+  (validation), installation, operation, maintenance, and
+  retirement.<br>
+  The development process tends to run iteratively through these
+  phases rather than linearly; several models (spiral, waterfall,
+  etc.) have been proposed to describe this process.<br>
+  Other processes associated with a software product are: <a href="#SoftwareQualityAssurance">quality assurance</a>, marketing, sales and support.<br>
+  (1996-12-27)</p>
+
+  <p class="Description"><i>See also: <a href=
+  "#SoftwareMaintenance">software maintenance</a></i></p>
+
+  <p class="Term"><b><a name="SoftwareMaintenance">software
+  maintenance</a></b></p>
+
+  <p class="Description">The process of modifying a software system
+  or component after delivery to correct faults, improve
+  performance or other attributes, or adapt to a changed
+  environment. <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">Modification of a software product after
+  delivery to correct faults, to improve performance or other
+  attributes, or to adapt the product to a modified environment
+  <a href="#IEEE1219_1998">[IEEE&nbsp;Std&nbsp;1219-1998]</a><br/>
+  <em>This definition has been extended recently in the 2006 ISO/IEC 14764 standard, a revision of the IEEE 1219 standard of 1998:</em> Software
+  maintenance is the totality of activities required to provide cost-effective
+  support to a software system. Activities are performed during the pre-delivery
+  stage as well as the post-delivery stage. <a href="">[ISO/IEC&nbsp;2006]</a>
+  </p>
+
+  <p class="Description">The software product undergoes
+  modification to code and associated documentation due to a
+  problem or the need for improvement. The objective is to modify
+  the existing software while preserving its integrity <a href=
+  "#ISO12207_1995">[ISO Std 12207-1995]</a></p>
+
+  <p class="Description">The deliberate application of activities
+  and processes, whether or not completed, to existing software
+  that modify either the way the software directs hardware of the
+  system, or the way the system (of which the software is a part)
+  contributes to the business of the system&iacute;s stakeholders,
+  together with the associated
+  <a href="#SoftwareQualityAssurance">quality assurance</a> activities and
+  processes, and with the management of the activities and
+  processes, and often done in the context of software evolution
+  <a href=
+  "#ChapinEtAl2001">[Chapin&nbsp;<i>et&nbsp;al.</i>&nbsp;2001]</a></p>
+
+  <p class="Description"><i>See also: <a href=
+  "#SoftwareEvolution">software evolution</a></i></p>
+
+  <p class="Term"><a name="SoftwareMetric"><b>software
+  metric</b></a></p>
+
+  <p class="Description">A software metric is a combination from
+  measures of attributes belonging to a software product, or to its
+  development process, which shows quantitatively some of its
+  characteristics. <a href="#AbreuEtAl2000">[Abreu&amp;al
+  2000]</a></p>
+
+  <p class="Term"><b><a name="SoftwareProductLine">software product line</a></b></p>
+
+  <p class="Description">A set of software-intensive systems that share a common, managed set of features satisfying the specific needs of a particular market segment (i.e., domain) or mission and that are developed from a common set of core assets in a prescribed way (see <a href="http://www.sei.cmu.edu/productlines/glossary.html">Software Product Lines Glossary</a>).</p>
+
+  <p class="Description"><i>See also: <a href=
+  "#ProductLine">product line</a></i></p>
+
+ <p class="Term"><a name="SoftwareQualityAssurance"><b>software
+  quality assurance</b></a></p>
+
+  <p class="Description">A planned and systematic pattern of all actions necessary to provide adequate confidence that the item or product conforms to established technical requirements. <a href="#IEEE610_12">[IEEE 610.12]</a></p>
+
+
+  <p class="Term"><b><a name=
+  "SpecialisationInterface">specialisation interface</a></b> of a
+  class</p>
+
+  <p class="Description">The specialization interface is used to
+  extend and modify classes. It is accessed by making a subclass
+  and adding messages and methods, refining types, or overriding
+  methods. The last of these, overriding methods, is the operation
+  that can modify behaviour and than can interact with the internal
+  structure of the class. <a href=
+  "#Lamping1993">[Lamping&nbsp;1993]</a></p>
+
+  <p class="Description">See also: <i><a href=
+  "#ClientInterface">client interface</a></i></p>
+
+  <p class="Term"><b>statistic</b></p>
+
+  <p class="Description">A descriptive measure of a sample, e.g.,
+  mean <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b><a name="StatisticalHypothesis">statistical
+  hypothesis</a></b></p>
+
+  <p class="Description">A statement about one or more parameters
+  of a population. The <a href="#NullHypothesis">null
+  hypothesis</a> and <a href="#AlternativeHypothesis">alternative
+  hypothesis</a> are two forms of a statistical hypothesis
+     <a href="#ISERN">[ISERN]</a></p>
+
+  <p class="Term"><b><a name="StatisticalModel">statistical
+  model</a></b></p>
+
+  <p class="Description">A mathematical statement concerning the
+  sampling distribution of a random variable that is used in
+  evaluating the outcome of an experiment or in predicting the
+  outcome of future replications of an experiment <a href=
+  "#ISERN">[ISERN]</a>.</p>
+
+  <p class="Term"><b><a name="StatisticalTest">statistical
+  test</a></b></p>
+
+  <p class="Description">A statistic whose purpose is to provide a
+  test of some <a href="#StatisticalHypothesis">statistical
+  hypothesis</a>. Test statistics such as <b>t</b> and <b>F</b>
+  have known sampling distributions that can be employed in
+  determining the probability of an obtained result under the
+  <a href="#NullHypothesis">null hypothesis</a> <a href=
+  "#ISERN">[ISERN]</a>.</p>
+
+  <p class="Term"><b>structured design</b></p>
+
+  <p class="Description">(1) Any disciplined approach to software
+  design that adheres to specified rules based on principles such
+  as modularity, top-down design, and stepwise refinement of data,
+  system structures, and processing steps.<br>
+  (2) The result of applying the approach in (1). <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Term"><a name="Survey"><b>survey</b></a></p>
+
+  <p class="Description">A survey is a retrospective study of a
+  situation to try to document relationships and outcomes. A survey
+  is always done after an event has occurred. When performing a
+  suvey, you have no control over the situation at hand. That is,
+  because it is a retrospective study, you can record a situation
+  and compare it with similar ones. But you cannot manipulate
+  variables as you do with <a href="#CaseStudy">case studies</a>
+  and <a href="#Experiment">experiments</a>. Surveys try to poll
+  what is happening broadly over large groups of projects:
+  "research in the large" <a href=
+  "#FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a>.</p>
+
+  <p class="Term"><b>systematic reuse</b></p>
+
+  <p class="Description">Reuse is not restricted to certain phases
+  of the software life-cycle, and even not to single applications.
+  The idea of systematic reuse is that reuse takes place
+  continuously during the entire software development process.
+  Consequently, systematic software reuse corresponds to the
+  purposeful creation, management and application of reusable
+  assets.</p>
+  <hr>
+
+  <center>
+    <h2><a name="T">T</a></h2>
+  </center>
+
+  <p class="Term"><b>testability</b></p>
+
+ <p class="Description">The <a href="#ISO9126">ISO/IEC standard 9126</a> defines <i>testability</i> as "attributes of software that bear on the effort needed to validate the software product".</p>
+
+  <p class="Term"><b>testing</b></p>
+
+  <p class="Description">The phase in the <a href=
+  "#SoftwareLifeCycle">software life-cycle</a> that aims at
+  uncovering defects by executing specialised test programs and
+  test cases.</p>
+
+  <p class="Description">The activity of uncovering defects in an
+  implementation by comparing its behaviour against that of its
+  specification under a given set of runtime stimuli (the <i>test
+  cases</i> or <i>test data</i>). <a href=
+  "#DSouzaWills1999">[D'Souza&amp;Wills&nbsp;1999]</a></p>
+
+  <p class="Term"><b>timeliness</b></p>
+
+  <p class="Description">The ability of a software system to be
+  released when or before its users want it <a href=
+  "#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Term"><b><a name="Traceability">traceability</a></b></p>
+
+  <p class="Description">The degree to which a relationship can be
+  established between two or more products of the development
+  process, especially products having a predecessor-successor or
+  master-subordinate relationship to one another; for example, the
+  degree to which the requirements and design of a given software
+  component match. <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description">The degree to which each element in a
+  software development product establishes its reason for existing;
+  for example, the degree to which each element in a bubble chart
+  references the requirement that it satisfies <a href=
+  "#IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a></p>
+
+  <p class="Description"><i><span lang="EN-GB">See also:
+     <a href="#RequirementsTraceability">requirements
+     traceability</a></span></i></p>
+
+  <p class="Term"><b>traceability analysis</b></p>
+
+  <p class="Description">The same as <i><a href=
+  "#DependencyAnalysis">dependency analysis</a></i>, but it usually
+  involves examining dependency relationships between software
+  artefacts at different phases of the <a href=
+  "#SoftwareLifeCycle">software life-cycle</a>, e.g. a dependency
+  between a requirements specification and a corresponding design
+  component.</p>
+
+  <p class="Term"><b><a name="Transformation">transformation</a></b></p>
+
+  <p class="Description">The automatic generation of a target model
+  from a source model, according to a <a href=
+  "#TransformationDefinition">transformation definition</a>.
+  <a href="#MDAexplained">[Kleppe et al. 1990]</a></p>
+
+  <p class="Term"><b><a name="TransformationalSoftwareEngineering">transformational software engineering</a></b></p>
+  
+  <p class="Description">A view of <a href="#SoftwareEngineering">software engineering</a> through which the production and evolution of software can be modelled, and practically carried out, by a chain of transformations which preserves some essential properties of the source specifications. Program compilation, but also transforming tail recursion into an iterative pattern are popular examples. This approach is currently applied to software evolution, reverse engineering and migration. The transformational paradigm is one of the most powerful approaches to formally guarantee <a href="#Traceability">traceability</a>.</p>
+
+  <p class="Term"><b><a name=
+  "TransformationDefinition">transformation definition</a></b></p>
+
+  <p class="Description">a set of <a href=
+  "#TransformationRule">transformation rules</a> that together
+  describe how a model in the source language can be transformed
+  into a model in the target language. <a href=
+  "#MDAexplained">[Kleppe et al. 1990]</a></p>
+
+  <p class="Term"><b><a name="TransformationRule">transformation  rule</a></b></p>
+
+  <p class="Description">a description of how one or more
+  constructs in the source language can be transformed into one or
+  more constructs in the target language. <a href=
+  "#MDAexplained">[Kleppe et al. 1990]</a></p>
+  
+  <p class="Term"><b><a name="Treshold">treshold</a></b></p>
+  
+  <p class="Description">A fixed value (typically an upper bound or lower bound) that distinguishes normal values from abnormal metric values. Typically used when applying software metrics to detect anomalies.</p>
+
+  <hr>
+
+  <center>
+    <h2><a name="U">U</a></h2>
+  </center>
+
+  <p class="Term"><b><a name="Usability">usability</a></b></p>
+
+  <p class="Description">Usability of a software product is the
+  extent to which the product is convenient and practical to use
+  <a href=
+  "#BoehmEtAl1978">[Boehm&nbsp;et&nbsp;al&nbsp;1978]</a>.</p>
+  <hr>
+
+  <center>
+    <h2><a name="V">V</a></h2>
+  </center>
+
+  <p class="Term"><b><a name=
+  "Variability">variability</a></b></p>
+
+  <p class="Description"><strong>Software variability</strong> refers to the ability of a software sysem or artefact to be efficiently extended, changed, customised or configured for use in a particular context
+[Svahnberg et al 2005].</p>
+  
+  <p class="Description"><strong>Product line variability</strong> describes the variation (differences) between the systems that belong to a <a href="#ProductLine">product line</a> in terms of properties and qualities (like <a href="#Feature">features</a> that are provided or requirements that are fulfilled. [Coplien et al. 1998, Kang et al. 2002, Phol et al. 2005]</p>
+
+
+  <p class="Term"><b>verifiability</b></p>
+
+  <p class="Description">The ease of preparing acceptance
+  procedures, especially test data, and procedures for detecting
+  failures and tracing them to errors during the validation and
+  operation phases <a href="#Meyer1997">[Meyer&nbsp;1997]</a></p>
+
+  <p class="Term"><b>version</b></p>
+  
+  <p class="Description">A version is a snapshot of a certain software system at a certain point in time. Whenever a change is made to the software system, a new version is created.<p>
+  
+  <p class="Term"><b>version history </b></p>
+  
+  <p class="Description">The collection of all versions and their relationships.</p>
+
+  <p class="Term"><b>version repository</b></p>
+
+  <p class="Description">A kind of database, file system or other kind of repository in which the version history of a software system are stored. The repository may be used to store source code, executable code, documentation or any other type of software artefact of which different versions may exist over time (or even at the same time).</p>
+
+
+  <p class="Term"><b>vertical reuse</b></p>
+
+  <p class="Description">Vertical reuse is the process of
+  developing components that can only be reused in a given
+     <a href="#ProductFamily">product family</a>.</p>
+
+  <p class="Term"><b><a name="VerticalTraceability">vertical
+  traceability</a></b></p>
+
+  <p class="Description">Expresses relationships between software
+  artefacts in the same phase of the <a href=
+  "#SoftwareLifeCycle">software life-cycle</a>. In this sense, it
+  is the same as dependency analysis, but not necessarily
+  restricted to the implementation phase.</p>
+
+  <p class="Description"><i><span lang="EN-GB">See also:
+     <a href="#HorizontalTraceability">horizontal
+     traceability</a></span></i></p>
+
+  <p class="Term"><b><a name="View">view</a></b></p>
+
+  <p class="Description">A view is a representation of a whole
+  system from the perspective of a related set of <a href=
+  "#concerns">concerns</a>. <a href=
+  "#IEEE1471_2000">[IEEE&nbsp;Std&nbsp;1471-2000]</a></p>
+
+  <p class="Term"><b><a name="Viewpoint">viewpoint</a></b></p>
+
+  <p class="Description">A viewpoint is a specification of the
+  conventions for constructing and using a <a href=
+  "#view">view</a>. <a href=
+  "#IEEE1471_2000">[IEEE&nbsp;Std&nbsp;1471-2000]</a></p>
+  
+  <hr>
+
+  <center>
+    <h2><a name="W">W</a></h2>
+  </center>
+  
+    <p class="Term"><b><a name="Wrapper">wrapper</a></b></p>
+
+  <p class="Description">A software component that encapsulates a system component (a procedure, a program, a file, an API) in order to transform its interface with its environment. For instance, a wrapper associated with a legacy program can give the latter an object-oriented interface.</p>
+  <p class="Description">In a database setting, a <i>data wrapper</i> is a software component that encapsulates a database or a set of files in order to change its model and the API through which the data can be manipulated. For example, a data wrapper built on top of a standard file can allow application programs to access the contents of the file as if it were a relational table or a collection of XML documents.</p>
+
+  <hr>
+
+  <center>
+    <h2><a name="X">X</a></h2>
+  </center>
+  <hr>
+
+  <center>
+    <h2><a name="Y">Y</a></h2>
+  </center>
+  <hr>
+
+  <center>
+    <h2><a name="Z">Z</a></h2>
+  </center>
+  <hr size="4" color="blue">
+
+  <h2><a name="References">References</a></h2>
+
+  <p class="Reference"><a name=
+  "AbreuEtAl2000">[Abreu&amp;al2000]</a> Fernando Brito e Abreu:
+  ???, 2000.</p>
+
+  <p class="Reference"><a name="Arrango1994">[Arrango 1994]</a> G.
+  Arrango. <i>Domain Analysis Methods</i>. In Software Reusability,
+  pp. 17-49, Ellis-Horwood, New York, 1994.</p>
+
+  <p class="Reference"><a name=
+  "Bassett1997">[Bassett&nbsp;1997]</a> Paul G. Bassett: <i>Framing
+  Software Reuse: Lessons From the Real World</i>. Yourdon Press
+  Computing Series, ISBN 0-13-327859-X, Prentice Hall, 1997.</p>
+
+  <p class="Reference"><a name=
+  "Biggerstaff1989">[Biggerstaff&nbsp;1989]</a> T. J. Biggerstaff:
+  <i>Design Recovery for Maintenance and Reuse</i>. IEEE Computer,
+  July 1989, pp. 36-49.</p>
+
+  <p class="Reference"><a name=
+  "BoehmEtAl1978">[Boehm&nbsp;et&nbsp;al&nbsp;1978]</a> B.W. Boehm
+  and J. R. Brown and J.R. Kaspar et al. <i>Characteristics of
+  software quality</i>. TRW Series of Software Technology,
+  Amsterdam, North Holland, 1978.</p>
+
+<p class="Reference"><a name="BohnerArnold1996">[Bohner&Arnold1996]</a>
+S.A. Bohner, R.S. Arnold. <i>Software Change Impact Analysis</i>. IEEE Computer Society, 1996</p>
+  
+  <p class="Reference"><a name="BoochEtAl1999">[Booch et al.
+  1990]</a> G. Booch, J. Rumbaugh, I. Jacobson. <i>The Unified
+  Modeling Language User Guide</i>. Addison-Wesley, 1999.</p>
+
+  <p class="Reference"><a name="BrachaCook1990">[Bracha&amp;Cook
+  1990]</a> Gilad Bracha, William Cook: <i>Mixin-based
+  inheritance</i>. Proc. ECOOP/OOPSLA, 1990.</p>
+
+  <p class="Reference"><a name=
+  "ChapinEtAl2001">[Chapin&nbsp;<i>et&nbsp;al.</i>&nbsp;2001]</a>
+  N. Chapin, J.E. Hale, K.Md. Khan, J.F. Ramil, W.-G. Tan. <i>Types
+  of software evolution and software maintenance</i>. Journal of
+  Software Maintenance and Evolution: Research and Practice, 13:
+  3-30, 2001.</p>
+
+  <p class="Reference"><a name=
+  "ChikofskyCross1990">[Chikofsky&amp;Cross&nbsp;1990]</a> E.J.
+  Chikofsky, J.H. Cross II. Reverse Engineering and Design
+  Recovery: A Taxonomy. <i>IEEE Software Engineering Journal</i>,
+  pp. 13-17, Jan. 1990.</p>
+
+  <p class="Reference"><a name=
+  "CookEtAl2000">[Cook&nbsp;<i>et&nbsp;al.</i>&nbsp;2000]</a> S.
+  Cook, He Ji, Rachel Harrison. <i>Software Evolution and Software
+  Evolvability</i>. Technical Report, University of Reading,
+  2000.</p>
+
+  <p class="Reference"><a name=
+  "DemeyerEtAl1999">[Demeyer&nbsp;<i>et&nbsp;al.</i>&nbsp;1999]</a>
+  S. Demeyer, S. Ducasse, S. Tichelaar. Why unified is not
+  universal. UML shortcomings for coping with round-trip
+  engineering. <i>Proc. Int. Conf. UML</i>, Springer-Verlag,
+  1999.</p>
+
+  <p class="Reference"><a name=
+  "DemeyerEtAl2000">[Demeyer&nbsp;<i>et&nbsp;al.</i>&nbsp;2000]</a>
+  S. Demeyer, S. Ducasse, O. Nierstrasz. Finding Refactorings via
+  Change Metrics. <i>Proc. Int. Conf. OOPSLA 2000</i>, ACM Press,
+  October 2000.</p>
+
+  <p class="Reference"><a name=
+  "DSouzaWills1999">[D'Souza&amp;Wills&nbsp;1999]</a> Desmond F.
+  D'Souza, Alan Cameron Wills. <i>Objects, Components and
+  Frameworks with UML: The Catalysis Approach</i>. ISBN
+  0-201-31012-0, Addison-Wesley, 1999.</p>
+
+  <p class="Reference"><a name=
+  "Edmonds1997">[Edmonds&nbsp;1997]</a> B. Edmonds. <i>Complexity
+  and scientific modelling</i>. Proc. 20th Int'l Wittgenstein
+  Symposium, Austria, August 1997.</p>
+
+  <p class="Reference"><a name="Erl2005">[Erl2005]</a> Thomas Erl. <i>Service-Oriented Architecture: Concepts, Technology, and Design</i>, Prentice Hall, 2005</p>
+  
+  <p class="Reference"><a name="FentonPfleeger1996">[Fenton&amp;Pfleeger&nbsp;1996]</a> Norman
+  E. Fenton, Shari Lawrence Pfleeger. <i>Software Metrics: A
+  Rigorous and Practical Approach</i>. Thomson Computer Press,
+  1996.</p>
+
+  <p class="Reference"><a name=
+  "Finkelstein1996">[Finkelstein&amp;al&nbsp;1996]</a> A.
+  Finkelstein, G. Spanoudakis, D. till. <i>Managing
+  interference</i>. Joint Proceedings Sigsoft '96, pp. 172-174, ACM
+  Press, 1996.</p>
+
+  <p class="Reference"><a name="Fowler1999">[Fowler&nbsp;1999]</a>
+  Martin Fowler. <i>Refactoring: improving the design of existing
+  programs</i>. Addison-Wesley, 1999.</p>
+
+  <p class="Reference"><a name=
+  "Gabriel1996">[Gabriel&nbsp;1996]</a> Richard P. Gabriel.
+  <i>Patterns of Software: Tales from the Software Community</i>.
+  ISBN 0-19-512123-6, Oxford University Press, 1996.</p>
+
+  <p class="Reference"><a name=
+  "GammaEtAl1994">[Gamma&amp;al&nbsp;1994]</a> Erich Gamma, Richard
+  Helm, Ralph Johnson and John Vlissides: <i>Design Patterns:
+  Elements of Reusable Object-Oriented Software</i>.
+  Addison-Wesley, 1994.</p>
+
+  <p class="Reference"><a name=
+  "IEEE729_1993">[IEEE&nbsp;Std&nbsp;729-1993]</a> IEEE Software
+  Engineering Standard 729-1993: <i>Glossary of Software
+  Engineering Terminology</i>. IEEE Computer Society Press,
+  1993.</p>
+
+  <p class="Reference"><a name=
+  "IEEE610_12">[IEEE&nbsp;Std&nbsp;610.12-1990]</a> IEEE Standard
+  Glossary of Software Engineering Terminology 610.12-1990. In IEEE
+  Standards Software Engineering, 1999 Edition, Volume One:
+  Customer and Terminology Standards. IEEE Press, 1999.</p>
+
+  <p class="Reference"><a name=
+  "IEEE1219_1998">[IEEE&nbsp;Std&nbsp;1219-1998]</a> IEEE Standard
+  for Software Maintenance, IEEE Std 1219-1998. In IEEE Standards
+  Software Engineering, 1999 Edition, Volume Two: Process
+  Standards. IEEE Press, 1999.</p>
+
+  <p class="Reference"><a name=
+  "IEEE1471_2000">[IEEE&nbsp;Std&nbsp;1471-2000]</a> IEEE Standards
+  Board. <i>Recommended Practice for Architectural Description of
+  Software-Intensive Systems</i>, IEEE Std 1471-2000. September
+  2000.</p>
+
+  <p class="Reference"><a name="ISERN">[ISERN]</a> International
+  Software Engineering Research Network, <a href=
+  "http://www.iese.fhg.de/ISERN/">http://www.iese.fhg.de/ISERN/</a></p>
+
+  <p class="Reference"><a name="ISO9126">[ISO&nbsp;Std&nbsp;9126]</a> International Standards Organisation. <i>ISO 9126 Information technology: Software product evaluation: Quality characteristics and guidelines for their use</i>, Geneva, Switzerland, 1991</p>
+  
+  <p class="Reference"><a name=
+  "ISO12207_1995">[ISO&nbsp;Std&nbsp;12207-1995]</a> International
+  Standards Organisation. <i>ISO 12207 Information Technology:
+  Software Life Cycle Processes</i>, Geneva, Switzerland, 1995.</p>
+
+  <p class="Reference"><a name=
+  "JacobsonEtAl1997">[Jacobson&amp;al&nbsp;1997]</a> Ivar Jacobson,
+  Martin Griss and Patrik Jonsson: <i>Software Reuse: Architecture,
+  Process and Organization for Business Success</i>.
+  Addison-Wesley, 1997.</p>
+
+  <p class="Reference"><a name="KangEtAl1990">[Kang et al.
+  1990]</a> K. Kang, S. Cohen, J. Hess, W. Novak, S. Peterson.
+  <i>Feature-oriented domain analysis (FODA) feasibility study</i>.
+  Technical Report CMU/SEI-90-TR-021, 1990.</p>
+
+  <p class="Reference"><a name="MDAexplained">[Kleppe et al.
+  1990]</a> Kleppe, J. Warmer, W. Bast. <i>MDA Explained, The
+  Model-Driven Architecture: Practice and Promise</i>, Addison
+  Wesley, 2003.</p>
+
+  <p class="Reference"><a name="Koschke1998">[Koschke 1998]</a>
+  Rainer Koschke, Jean-Francois Girard. <i>An Intermediate Representation for Reverse Engineering Analyses</i>,
+  Proc. WCRE, pp. 241-250, IEEE Computer Society, 1998</p>
+	
+  <p class="Reference"><a name="KrintzEtAl1998">[Krintz et al.
+  1998]</a> Chandra Krintz, Brad Calder, Han Bok Lee, Benjamin G.
+  Zorn. <i>Overlapping Execution with Transfer Using Non-Strict
+  Execution for Mobile Programs</i>. Proc. Int. Conf. Architectural
+  Support for Programming Languages and Operating Systems, ACM
+  Press, 1998.</p>
+
+  <p class="Reference"><a name=
+  "Lamping1993">[Lamping&nbsp;1993]</a> John Lamping. <i>Typing the
+  specialization interface</i>. Proc. OOPSLA'93, ACM SIGPLAN
+  Notices 28(10), pp. 201-214, October 1993, ACM Press.</p>
+
+   <p class="Reference"><a name="LehmanBelady1985">[LehmanBelady1985]</a>
+   Meir M. Lehman, L. A. Belady.
+   <i>Program Evolution: Processes of Software Change</i>, Academic Press, 1985</p>
+	
+  <p class="Reference"><a name="MadhavjiEtAl2006">[MadhavjiEtAl2006]</a> Nazim H. Madhavji, Juan F. Ramil, Dewayne E. Perry. <i>Software Evolution and Feedback: Theory and Practice</i>, Wiley 2006</p>
+  
+  <p class="Reference"><a name="Maes1987">[Maes&nbsp;1987]</a>
+  Pattie Maes. <i>Computational Reflection</i>. PhD Thesis,
+  Artificial Intelligence Laboratory, Vrije Universiteit Brussel,
+  1987.</p>
+
+  <p class="Reference"><a name="Meyer1997">[Meyer&nbsp;1997]</a>
+  Bertrand Meyer. <i>Object-Oriented Software Construction, second
+  edition</i>. Prentice-Hall, 1997.</p>
+
+  <p class="Reference"><a name="MusaEtAl1987">[Musa et al.
+  1987]</a> J. D. Musa, A. Iannino, K. Okumoto. <i>Engineering and
+  Managing Software with Reliability Measures</i>, McGraw-Hill,
+  1987.</p>
+
+  <p class="Reference"><a name=
+  "NaurRandall1969">[NATO&nbsp;1969]</a> P. Naur, B. Randall
+  (Eds.). <i>Software Engineering: A Report on a Conference
+  Sponsored by the NATO Science Committee</i>, NATO, 1969.</p>
+
+  <p class="Reference"><a name="NATO1970">[NATO&nbsp;1970]</a> B.
+  Randall, J. N. Buxton. <i>Software Engineering Techniques: A
+  Report on a Conference Sponsored by the NATO Science
+  Committee</i>, NATO 1970.</p>
+
+  <p class="Reference"><a name=
+  "OMG1997UMLSemantics">[OMG&nbsp;1997Sem]</a> Object Management
+  Group: <i>UML Semantics</i>. OMG Document ad/97-08-04, Version
+  1.1, 1 September 1997.</p>
+
+  <p class="Reference"><a name=
+  "Parnas1979">[Parnas&amp;1979]</a> David Parnas. Designing software for ease of extension and contraction.
+  IEEE Transactions on Software Engineering 5(2): 128-138, 1979.</p>
+  
+  <p class="Reference"><a name=
+  "Pulvermuller2001">[Pulvermuller&amp;al2001]</a> E. Pulvermuller,
+  A. Speck, J. O. Coplien, M. D'Hondt, W. De Meuter. Feature
+  Interaction in Composed Systems, 2001.</p>
+
+  <p class="Reference"><a name="Rekoff1985">[Rekoff 1985]</a> M.G.
+  Rekoff Jr.: <i>On Reverse Engineering</i>. IEEE Trans. Systems,
+  Man, and Cybernetics, March-April 1985, pp. 244-252.</p>
+
+  <p class="Reference"><a name=
+  "RobertsJohnson1996">[Roberts&amp;Johnson&nbsp;1996]</a> Don
+  Roberts and Ralph Johnson: <i>Evolving Frameworks: A
+  Pattern-language for Developing Object-oriented Frameworks</i>.
+  PLoP '96 Proceedings, 1996.</p>
+
+  <p class="Reference"><a name="Rosen1992">[Rosen&nbsp;1992]</a> S.
+  Rosen: <i>Encyclopedia of Computer Science</i>. Van Nostrand
+  Reinhold, 1992.</p>
+
+  <p class="Reference"><a name="ShawGarlan1996">[ShawGarlan1996]</a> Mary Shaw, David Garlan: <i></i>. 1996
+  <p class="Reference"><a name="Simons1995">[Simons1995]</a> A.J.H.
+  Simons: <i>Software Architecture --- Perspectives on an Emerging Discipline</i>. Prentice, 1996.</p>
+
+  <p class="Reference"><a name=
+  "SpanoudakisZisman2001">[Spanoudakis&amp;Zisman&nbsp;2001]</a> G.
+  Spanoudakis, A. Zisman: <i>Inconsistency management in software
+  engineering: Survey and open research issues</i>. In Handbook of
+  Software Engineering and Knowledge Engineering, 1, pp. 329-380,
+  World Scientific Publishing Co., 2001.</p>
+  
+  <p class="Reference"><a name="StahlVolter2006">[Stahl&amp;Volter&nbsp;2006]</a>
+  T. Stahl, M. Volter: <i>Model-Driven Software Development</i>. Wiley, 2006.</p>
+
+  <p class="Reference"><a name="TarrEtAl1999">[TarrEtAl1999]</a> Peri Tarr and Harold Ossher and William Harrison and Stanley M. Sutton: <i>N degrees of separation: multi-dimensional separation of concerns</i>. Proc. ICSE 1999, pp. 107-119, IEEE Computer Society Press, 1999</p>
+ 
+  <p class="Reference"><a name=
+  "Wordsworth1999">[Wordsworth&nbsp;1999]</a> J. B. Wordsworth:
+  <i>Getting the best from formal methods</i>. Information and
+  Software Technology 41(14), November 1999, pp. 1027-1032.</p>
+  <hr>
+</body>
+</html>
