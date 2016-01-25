@@ -19,6 +19,8 @@
 <strong><a name="ConceptualModeling"></a> Conceptual Modeling </strong>: Activity to elicit the <a href="#ConceptualSchema"> conceptual schema </a> of a system
 <strong><a name="ConceptualModel"></a> Conceptual Model </strong>: See <a href="#ConceptualSchema"> Conceptual Schema </a>
 <strong><a name="ConceptualSchema"></a> Conceptual Schema </strong>: General knowledge about the domain of the system and about the functions it has to perform. This knowledge can be expressed using several models (e.g. structural and behavioral models) written in with the same or different modeling languages.
+<strong><a name="conformance"></a> Conformance </strong>: A relationship between models and metamodels. A model conforms to its metamodel if it obeys the syntactic rules defined by the metamodel.
+<strong><a name="contentmodel"></a> Content model </strong>:In the web engineering community, a model describing the business and data objects of a web system, including their properties and relationships.
 
 <h2><a name="D"></a><strong>D </strong></h2>
 <strong><a name="Diagram"></a> Diagram </strong>: Graphical representation of set of related model elements (usually belonging to the same metamodel). Some languages predefined some diagram types like UML (class diagrams, sequence diagrams...).
@@ -60,6 +62,7 @@ technique for expressing model transformations, specially <a href="#InPlaceTrans
 <h2><a name="L"></a><strong>L </strong></h2>
 
 <h2><a name="M"></a><strong>M </strong></h2>
+<strong><a name="model"></a> Model </strong>:An abstract specification of a part of a software system. A model is an utterance of a modeling language.
 <strong><a name="MDA"></a> MDA </strong>: see Model-Driven Architecture.
 <strong><a name="MDD"></a> MDD </strong>: see Model-Driven Development.
 <strong><a name="MDE"></a> MDE </strong>: see Model-Driven Engineering.
@@ -67,8 +70,14 @@ technique for expressing model transformations, specially <a href="#InPlaceTrans
 <strong><a name="ModelDrivenArchitecture"></a> Model-Driven Architecture </strong>: MDA is the OMG’s particular vision of MDD and thus relies on the use of OMG standards. Therefore, MDA can be regarded as a subset of MDD (see also: <a href="http://modeling-languages.com/relationship-between-mdamdd-and-mde/">relationship between MDA/MDD/MDE/MBE</a>).
 <strong><a name="ModelDrivenDevelopment"></a> Model-Driven Development</strong>: MDD is a development paradigm that uses models as the primary artifact of the development process. Usually, in MDD, the implementation is (semi)automatically generated from the models.
 <strong><a name="ModelDrivenEngineering"></a> Model-Driven Engineering </strong>: Software Engineering paradigm where models play a key role in all engineering activities (forward engineering, reverse engineering, software evolution,...). See the <a href="http://modeling-languages.com/models-transformations-software/" target="_blank"> MDE equation </a>.
-
+<strong><a name="metamodel"></a> Metamodel </strong>: An intensional definition of a modeling language. It specifies the abstract syntax of the language.
+<strong><a name="model"></a> Model </strong>:An abstract specification of a part of a software system. A model is an utterance of a modeling language.
+<strong><a name="modelmigration"></a> Model migration </strong>:A transformation that transforms a model that conforms to the old version of the metamodel to the new version of the metamodel.
+<strong><a name="modelinglanguage"></a> Modeling Language </strong>:A software language to specify models. Its abstract syntax is defined by a metamodel, and its semantics usually defines how to 
+ 
+ 
 <h2><a name="N"></a><strong>N </strong></h2>
+<strong><a name="navigationmode"></a> Navigation model </strong>: A model describing the user interactions of a web system (e.g., navigation through links and form submission). 
 
 <h2><a name="O"></a><strong>O </strong></h2>
 <strong><a name="ObjectConstraintLanguage"></a> Object Constraint Language </strong>: OMG Standard )(formal) language to complement UML models (and in general any kind of MOF model) with expressions stating invariants, derivation rules, query operations and pre/postconditions on the model that cannot be easily expressed using the graphical UML constructs.
@@ -77,6 +86,7 @@ technique for expressing model transformations, specially <a href="#InPlaceTrans
 <strong><a name="ObjectManagementGroup"></a> Object Management Group </strong>: International, open membership, not-for-profit computer industry consortium responsible of several modeling standards like <a href="#UML">UML </a>, <a href="#MOF"> MOF </a> and <a href="#MDA"> MDA </a>.
 
 <h2><a name="P"></a><strong>P </strong></h2>
+<strong><a name="presentationmodel"></a> Presentation model </strong>: A model describing the layout and the look and feel of a web systemÕs interface, as well as the widgets that enable user interactions.
 
 <h2><a name="Q"></a><strong>Q </strong></h2>
 <strong><a name="QVT"></a> QVT </strong>: the OMG standard transformation language specification. It consists in mainly two sublanguages: QVT-Relations (for declarative model-to-model transformations) and QVT-Operations for imperative ones.
@@ -85,8 +95,11 @@ technique for expressing model transformations, specially <a href="#InPlaceTrans
 <strong><a name="QVTCore"></a> QVT Core</strong>: Simpler (and less user friendly) version of the <a href="#QVTRelations"> QVT Relations language </a>. Ideally, QVT relations could be mapped to QVT core to facilitate their execution by a transformation engine.
 
 <h2><a name="R"></a><strong>R </strong></h2>
+<strong><a name="refactoring"></a> (model) refactoring </strong>:According to M. Fowler a refactoring is [the process of making] a change to the internal structure of software to make it easier to understand and cheaper to modify without changing its observable behaviour.  If applied to models, we talk of model refactoring.
 
 <h2><a name="S"></a><strong>S </strong></h2>
+<strong><a name="softwarelanguage"></a> Software Language</strong>: A general term for artificial languages that are used to develop software. A software language consists of an abstract and concrete syntax as well as a semantics.
+
 
 <h2><a name="T"></a><strong>T </strong></h2>
 <strong><a name="Transformation"></a> Transformation </strong>: operation that receives as input a set of source models and returns as output a set of target models (model-to-model transformations) or text (model-to-text transformations).
